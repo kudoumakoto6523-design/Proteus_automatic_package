@@ -1,0 +1,21 @@
+{
+  "source": "D:\\Folder\\Proteus Skills\\api\\artifacts\\device-import-3bbbda14\\device_models.pdsprj",
+  "project": "D:\\Folder\\Proteus Skills\\api\\artifacts\\device-edit-3f82eedb\\edited_models.pdsprj",
+  "stages": [
+    {
+      "stage": "edited",
+      "parts": 6,
+      "nets_preserved": true,
+      "normal_exit": true
+    },
+    {
+      "stage": "reopened",
+      "parts": 6,
+      "nets_preserved": true,
+      "normal_exit": true
+    }
+  ],
+  "value_and_position_after_native_reopen": true,
+  "source_unchanged": true,
+  "visible_properties_unchanged": true
+}

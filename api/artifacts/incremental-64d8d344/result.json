@@ -1,0 +1,12 @@
+{
+  "directory": "D:\\Folder\\Proteus Skills\\api\\artifacts\\incremental-64d8d344",
+  "checks": [
+    "edited.pdsprj: geometry, connectivity, power, native save/reopen",
+    "three_parallel.pdsprj: geometry, connectivity, power, native save/reopen",
+    "named_networks.pdsprj: geometry, connectivity, power, native save/reopen",
+    "empty native save/reopen",
+    "delete last component",
+    "atomic overwrite",
+    "stale overwrite rejected"
+  ]
+}

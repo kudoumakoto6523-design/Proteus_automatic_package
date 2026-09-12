@@ -1,0 +1,17 @@
+{
+  "project": "D:\\Folder\\Proteus Skills\\api\\artifacts\\edit-check-6b33bf76\\edited.pdsprj",
+  "checks": [
+    "copy",
+    "delete",
+    "rename",
+    "value",
+    "property",
+    "rotate",
+    "mirror",
+    "move_with_reroute",
+    "disconnect",
+    "preserve_remaining_net",
+    "invalid_edit_atomic",
+    "native_sdf_save_reopen"
+  ]
+}

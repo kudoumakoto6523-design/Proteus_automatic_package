@@ -1,0 +1,260 @@
+{
+  "binary": [
+    {
+      "stage": "generated",
+      "nets": [
+        {
+          "name": "#00001",
+          "pins": [
+            {
+              "ref": "C1",
+              "kind": "PS",
+              "pin": "2"
+            }
+          ],
+          "terminals": [],
+          "properties": {}
+        },
+        {
+          "name": "#00002",
+          "pins": [
+            {
+              "ref": "C2",
+              "kind": "PS",
+              "pin": "2"
+            }
+          ],
+          "terminals": [],
+          "properties": {}
+        },
+        {
+          "name": "REAL_LABEL",
+          "pins": [
+            {
+              "ref": "C1",
+              "kind": "PS",
+              "pin": "1"
+            },
+            {
+              "ref": "C2",
+              "kind": "PS",
+              "pin": "1"
+            }
+          ],
+          "terminals": [
+            {
+              "name": "REAL_LABEL",
+              "kind": "LBL"
+            }
+          ],
+          "properties": {}
+        }
+      ],
+      "rebuild_complete": true
+    },
+    {
+      "stage": "rebuilt",
+      "nets": [
+        {
+          "name": "#00001",
+          "pins": [
+            {
+              "ref": "C1",
+              "kind": "PS",
+              "pin": "2"
+            }
+          ],
+          "terminals": [],
+          "properties": {}
+        },
+        {
+          "name": "#00002",
+          "pins": [
+            {
+              "ref": "C2",
+              "kind": "PS",
+              "pin": "2"
+            }
+          ],
+          "terminals": [],
+          "properties": {}
+        },
+        {
+          "name": "REAL_LABEL",
+          "pins": [
+            {
+              "ref": "C1",
+              "kind": "PS",
+              "pin": "1"
+            },
+            {
+              "ref": "C2",
+              "kind": "PS",
+              "pin": "1"
+            }
+          ],
+          "terminals": [
+            {
+              "name": "REAL_LABEL",
+              "kind": "LBL"
+            }
+          ],
+          "properties": {}
+        }
+      ],
+      "rebuild_complete": true
+    }
+  ],
+  "star": [
+    {
+      "stage": "generated",
+      "nets": [
+        {
+          "name": "#00001",
+          "pins": [
+            {
+              "ref": "C1",
+              "kind": "PS",
+              "pin": "2"
+            }
+          ],
+          "terminals": [],
+          "properties": {}
+        },
+        {
+          "name": "#00002",
+          "pins": [
+            {
+              "ref": "C2",
+              "kind": "PS",
+              "pin": "2"
+            }
+          ],
+          "terminals": [],
+          "properties": {}
+        },
+        {
+          "name": "#00003",
+          "pins": [
+            {
+              "ref": "C3",
+              "kind": "PS",
+              "pin": "2"
+            }
+          ],
+          "terminals": [],
+          "properties": {}
+        },
+        {
+          "name": "REAL_LABEL",
+          "pins": [
+            {
+              "ref": "C1",
+              "kind": "PS",
+              "pin": "1"
+            },
+            {
+              "ref": "C2",
+              "kind": "PS",
+              "pin": "1"
+            },
+            {
+              "ref": "C3",
+              "kind": "PS",
+              "pin": "1"
+            }
+          ],
+          "terminals": [
+            {
+              "name": "REAL_LABEL",
+              "kind": "LBL"
+            }
+          ],
+          "properties": {}
+        }
+      ],
+      "rebuild_complete": true
+    },
+    {
+      "stage": "rebuilt",
+      "nets": [
+        {
+          "name": "#00001",
+          "pins": [
+            {
+              "ref": "C1",
+              "kind": "PS",
+              "pin": "2"
+            }
+          ],
+          "terminals": [],
+          "properties": {}
+        },
+        {
+          "name": "#00002",
+          "pins": [
+            {
+              "ref": "C2",
+              "kind": "PS",
+              "pin": "2"
+            }
+          ],
+          "terminals": [],
+          "properties": {}
+        },
+        {
+          "name": "#00003",
+          "pins": [
+            {
+              "ref": "C3",
+              "kind": "PS",
+              "pin": "2"
+            }
+          ],
+          "terminals": [],
+          "properties": {}
+        },
+        {
+          "name": "REAL_LABEL",
+          "pins": [
+            {
+              "ref": "C1",
+              "kind": "PS",
+              "pin": "1"
+            },
+            {
+              "ref": "C2",
+              "kind": "PS",
+              "pin": "1"
+            },
+            {
+              "ref": "C3",
+              "kind": "PS",
+              "pin": "1"
+            }
+          ],
+          "terminals": [
+            {
+              "name": "REAL_LABEL",
+              "kind": "LBL"
+            }
+          ],
+          "properties": {}
+        }
+      ],
+      "rebuild_complete": true
+    }
+  ],
+  "terminal_only": [
+    {
+      "stage": "generated",
+      "nets": [],
+      "rebuild_complete": true
+    },
+    {
+      "stage": "rebuilt",
+      "nets": [],
+      "rebuild_complete": true
+    }
+  ]
+}

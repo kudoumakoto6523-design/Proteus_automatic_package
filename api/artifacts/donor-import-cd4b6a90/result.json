@@ -1,0 +1,70 @@
+[
+  {
+    "source": "samples\\generated_donor_models_v1.pdsprj",
+    "stage": "generated",
+    "parts": {
+      "D1": [
+        "LED-YELLOW",
+        "LED-YELLOW"
+      ],
+      "RL1": [
+        "RELAY",
+        "12V"
+      ],
+      "U1": [
+        "ATMEGA328P",
+        "ATMEGA328P"
+      ],
+      "U2": [
+        "ULN2003A",
+        "ULN2003A"
+      ]
+    },
+    "nets": 51
+  },
+  {
+    "source": "samples\\generated_donor_models_v1.pdsprj",
+    "stage": "reopened",
+    "parts": {
+      "D1": [
+        "LED-YELLOW",
+        "LED-YELLOW"
+      ],
+      "RL1": [
+        "RELAY",
+        "12V"
+      ],
+      "U1": [
+        "ATMEGA328P",
+        "ATMEGA328P"
+      ],
+      "U2": [
+        "ULN2003A",
+        "ULN2003A"
+      ]
+    },
+    "nets": 51
+  },
+  {
+    "source": "samples\\generated_stm32_donor_v1.pdsprj",
+    "stage": "generated",
+    "parts": {
+      "U_MCU1": [
+        "STM32F103R6",
+        "STM32F103R6"
+      ]
+    },
+    "nets": 59
+  },
+  {
+    "source": "samples\\generated_stm32_donor_v1.pdsprj",
+    "stage": "reopened",
+    "parts": {
+      "U_MCU1": [
+        "STM32F103R6",
+        "STM32F103R6"
+      ]
+    },
+    "nets": 59
+  }
+]

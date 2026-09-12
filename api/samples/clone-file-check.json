@@ -1,0 +1,56 @@
+{
+  "path": "D:\\Folder\\Proteus Skills\\api\\samples\\rescap_clone_c2_v2.pdsprj",
+  "sha256": "f8d63a889ce5fa6fb6b9d4acc35a12241352e53956e488121a59b0d1e8125db8",
+  "components": [
+    {
+      "ref": "R1",
+      "value": "EVAL(500/3.142)",
+      "device": "RESISTOR",
+      "symbol": "RESISTOR",
+      "position": {
+        "x": -1016000,
+        "y": 2032000
+      },
+      "rotation_raw": 0,
+      "instance_id": 1,
+      "properties": {
+        "PRIMITIVE": "ANALOGUE"
+      },
+      "properties_raw": "{PRIMITIVE=ANALOGUE}\n"
+    },
+    {
+      "ref": "C1",
+      "value": "1u",
+      "device": "CAPACITOR",
+      "symbol": "CAPACITOR",
+      "position": {
+        "x": 2794000,
+        "y": 1016000
+      },
+      "rotation_raw": 63736,
+      "instance_id": 2,
+      "properties": {
+        "PRIMITIVE": "ANALOGUE"
+      },
+      "properties_raw": "{PRIMITIVE=ANALOGUE}\n"
+    },
+    {
+      "ref": "C2",
+      "value": "1u",
+      "device": "CAPACITOR",
+      "symbol": "CAPACITOR",
+      "position": {
+        "x": 4318000,
+        "y": 1016000
+      },
+      "rotation_raw": 63736,
+      "instance_id": 14,
+      "properties": {
+        "PRIMITIVE": "ANALOGUE"
+      },
+      "properties_raw": "{PRIMITIVE=ANALOGUE}\n"
+    }
+  ],
+  "zip_crc_valid": true,
+  "application_verification": "pending"
+}

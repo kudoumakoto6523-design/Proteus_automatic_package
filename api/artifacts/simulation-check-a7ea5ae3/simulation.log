@@ -1,0 +1,533 @@
+PROSPICE 8.13.00 (Build 32709) (C) Labcenter Electronics 1993-2023.
+Loaded netlist 'C:\Users\ADMINI~1\AppData\Local\Temp\LISA8114.SDF' for design 'STM32F103 Blink LED (using STMCubeMX)'
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+[GPIO] PIOA_0 connected to PAD A_00 [U1_SYSINTERFACE]
+[GPIO] PIOA_1 connected to PAD A_01 [U1_SYSINTERFACE]
+[GPIO] PIOA_2 connected to PAD A_02 [U1_SYSINTERFACE]
+[GPIO] PIOA_3 connected to PAD A_03 [U1_SYSINTERFACE]
+[GPIO] PIOA_4 connected to PAD A_04 [U1_SYSINTERFACE]
+[GPIO] PIOA_5 connected to PAD A_05 [U1_SYSINTERFACE]
+[GPIO] PIOA_6 connected to PAD A_06 [U1_SYSINTERFACE]
+[GPIO] PIOA_7 connected to PAD A_07 [U1_SYSINTERFACE]
+[GPIO] PIOA_8 connected to PAD A_08 [U1_SYSINTERFACE]
+[GPIO] PIOA_9 connected to PAD A_09 [U1_SYSINTERFACE]
+[GPIO] PIOA_10 connected to PAD A_0A [U1_SYSINTERFACE]
+[GPIO] PIOA_11 connected to PAD A_0B [U1_SYSINTERFACE]
+[GPIO] PIOA_12 connected to PAD A_0C [U1_SYSINTERFACE]
+[GPIO] PIOA_13 connected to PAD A_0D [U1_SYSINTERFACE]
+[GPIO] PIOA_14 connected to PAD A_0E [U1_SYSINTERFACE]
+[GPIO] PIOA_15 connected to PAD A_0F [U1_SYSINTERFACE]
+[GPIO] PIOB_0 connected to PAD B_00 [U1_SYSINTERFACE]
+[GPIO] PIOB_1 connected to PAD B_01 [U1_SYSINTERFACE]
+[GPIO] PIOB_2 connected to PAD B_02 [U1_SYSINTERFACE]
+[GPIO] PIOB_3 connected to PAD B_03 [U1_SYSINTERFACE]
+[GPIO] PIOB_4 connected to PAD B_04 [U1_SYSINTERFACE]
+[GPIO] PIOB_5 connected to PAD B_05 [U1_SYSINTERFACE]
+[GPIO] PIOB_6 connected to PAD B_06 [U1_SYSINTERFACE]
+[GPIO] PIOB_7 connected to PAD B_07 [U1_SYSINTERFACE]
+[GPIO] PIOB_8 connected to PAD B_08 [U1_SYSINTERFACE]
+[GPIO] PIOB_9 connected to PAD B_09 [U1_SYSINTERFACE]
+[GPIO] PIOB_10 connected to PAD B_0A [U1_SYSINTERFACE]
+[GPIO] PIOB_11 connected to PAD B_0B [U1_SYSINTERFACE]
+[GPIO] PIOB_12 connected to PAD B_0C [U1_SYSINTERFACE]
+[GPIO] PIOB_13 connected to PAD B_0D [U1_SYSINTERFACE]
+[GPIO] PIOB_14 connected to PAD B_0E [U1_SYSINTERFACE]
+[GPIO] PIOB_15 connected to PAD B_0F [U1_SYSINTERFACE]
+[GPIO] PIOC_0 connected to PAD C_00 [U1_SYSINTERFACE]
+[GPIO] PIOC_1 connected to PAD C_01 [U1_SYSINTERFACE]
+[GPIO] PIOC_2 connected to PAD C_02 [U1_SYSINTERFACE]
+[GPIO] PIOC_3 connected to PAD C_03 [U1_SYSINTERFACE]
+[GPIO] PIOC_4 connected to PAD C_04 [U1_SYSINTERFACE]
+[GPIO] PIOC_5 connected to PAD C_05 [U1_SYSINTERFACE]
+[GPIO] PIOC_6 connected to PAD C_06 [U1_SYSINTERFACE]
+[GPIO] PIOC_7 connected to PAD C_07 [U1_SYSINTERFACE]
+[GPIO] PIOC_8 connected to PAD C_08 [U1_SYSINTERFACE]
+[GPIO] PIOC_9 connected to PAD C_09 [U1_SYSINTERFACE]
+[GPIO] PIOC_10 connected to PAD C_0A [U1_SYSINTERFACE]
+[GPIO] PIOC_11 connected to PAD C_0B [U1_SYSINTERFACE]
+[GPIO] PIOC_12 connected to PAD C_0C [U1_SYSINTERFACE]
+[GPIO] PIOC_13 connected to PAD C_0D [U1_SYSINTERFACE]
+[GPIO] PIOC_14 connected to PAD C_0E [U1_SYSINTERFACE]
+[GPIO] PIOC_15 connected to PAD C_0F [U1_SYSINTERFACE]
+[GPIO] PIOD_0 connected to PAD D_00 [U1_SYSINTERFACE]
+[GPIO] PIOD_1 connected to PAD D_01 [U1_SYSINTERFACE]
+[GPIO] PIOD_2 connected to PAD D_02 [U1_SYSINTERFACE]
+[ELF] Loading ARM ELF file 'D:\Folder\Proteus Skills\api\artifacts\simulation-check-a7ea5ae3\blink.elf'. [U1_CM3CORE]
+[GPIO] PAD A_00 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_01 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_02 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_03 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_08 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_09 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_0A is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_0B is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_0C is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_00 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_01 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_02 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_03 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_08 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_09 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_0A is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_0B is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_0C is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_00 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_01 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_02 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_03 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_08 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_09 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_0A is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_0B is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_0C is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD D_00 is configured as INPUT (Input with Push/pull) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD D_01 is configured as INPUT (Input with Push/pull) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD D_02 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003347875s
+[GPIO] PAD C_01 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003347875s
+[GPIO] PAD C_02 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003347875s
+[GPIO] PAD C_03 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003347875s
+[GPIO] PAD C_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003347875s
+[GPIO] PAD C_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003347875s
+[GPIO] PAD C_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003347875s
+[GPIO] PAD C_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003347875s
+[GPIO] PAD C_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003368625s
+[GPIO] PAD C_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003368625s
+[GPIO] PAD C_02 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003368625s
+[GPIO] PAD C_03 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003368625s
+[GPIO] PAD C_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003368625s
+[GPIO] PAD C_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003368625s
+[GPIO] PAD C_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003368625s
+[GPIO] PAD C_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003368625s
+[GPIO] PAD C_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003389375s
+[GPIO] PAD C_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003389375s
+[GPIO] PAD C_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003389375s
+[GPIO] PAD C_03 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003389375s
+[GPIO] PAD C_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003389375s
+[GPIO] PAD C_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003389375s
+[GPIO] PAD C_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003389375s
+[GPIO] PAD C_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003389375s
+[GPIO] PAD C_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003410125s
+[GPIO] PAD C_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003410125s
+[GPIO] PAD C_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003410125s
+[GPIO] PAD C_03 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003410125s
+[GPIO] PAD C_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003410125s
+[GPIO] PAD C_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003410125s
+[GPIO] PAD C_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003410125s
+[GPIO] PAD C_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003410125s
+[GPIO] PAD C_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003430875s
+[GPIO] PAD C_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003430875s
+[GPIO] PAD C_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003430875s
+[GPIO] PAD C_03 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003430875s
+[GPIO] PAD C_04 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003430875s
+[GPIO] PAD C_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003430875s
+[GPIO] PAD C_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003430875s
+[GPIO] PAD C_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003430875s
+[GPIO] PAD C_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003451625s
+[GPIO] PAD C_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003451625s
+[GPIO] PAD C_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003451625s
+[GPIO] PAD C_03 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003451625s
+[GPIO] PAD C_04 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003451625s
+[GPIO] PAD C_05 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003451625s
+[GPIO] PAD C_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003451625s
+[GPIO] PAD C_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003451625s
+[GPIO] PAD C_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003472375s
+[GPIO] PAD C_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003472375s
+[GPIO] PAD C_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003472375s
+[GPIO] PAD C_03 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003472375s
+[GPIO] PAD C_04 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003472375s
+[GPIO] PAD C_05 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003472375s
+[GPIO] PAD C_06 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003472375s
+[GPIO] PAD C_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003472375s
+[GPIO] PAD C_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003493125s
+[GPIO] PAD C_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003493125s
+[GPIO] PAD C_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003493125s
+[GPIO] PAD C_03 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003493125s
+[GPIO] PAD C_04 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003493125s
+[GPIO] PAD C_05 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003493125s
+[GPIO] PAD C_06 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003493125s
+[GPIO] PAD C_07 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003493125s
+[GPIO] PAD C_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003513875s
+[GPIO] PAD C_09 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003513875s
+[GPIO] PAD C_0A is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003513875s
+[GPIO] PAD C_0B is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003513875s
+[GPIO] PAD C_0C is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003513875s
+[GPIO] PAD C_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003513875s
+[GPIO] PAD C_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003513875s
+[GPIO] PAD C_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003513875s
+[GPIO] PAD C_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003534625s
+[GPIO] PAD C_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003534625s
+[GPIO] PAD C_0A is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003534625s
+[GPIO] PAD C_0B is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003534625s
+[GPIO] PAD C_0C is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003534625s
+[GPIO] PAD C_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003534625s
+[GPIO] PAD C_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003534625s
+[GPIO] PAD C_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003534625s
+[GPIO] PAD C_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003555375s
+[GPIO] PAD C_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003555375s
+[GPIO] PAD C_0A is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003555375s
+[GPIO] PAD C_0B is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003555375s
+[GPIO] PAD C_0C is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003555375s
+[GPIO] PAD C_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003555375s
+[GPIO] PAD C_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003555375s
+[GPIO] PAD C_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003555375s
+[GPIO] PAD C_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003576125s
+[GPIO] PAD C_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003576125s
+[GPIO] PAD C_0A is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003576125s
+[GPIO] PAD C_0B is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003576125s
+[GPIO] PAD C_0C is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003576125s
+[GPIO] PAD C_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003576125s
+[GPIO] PAD C_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003576125s
+[GPIO] PAD C_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003576125s
+[GPIO] PAD C_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003596875s
+[GPIO] PAD C_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003596875s
+[GPIO] PAD C_0A is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003596875s
+[GPIO] PAD C_0B is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003596875s
+[GPIO] PAD C_0C is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003596875s
+[GPIO] PAD C_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003596875s
+[GPIO] PAD C_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003596875s
+[GPIO] PAD C_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003596875s
+[GPIO] PAD C_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003617625s
+[GPIO] PAD C_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003617625s
+[GPIO] PAD C_0A is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003617625s
+[GPIO] PAD C_0B is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003617625s
+[GPIO] PAD C_0C is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003617625s
+[GPIO] PAD C_0D is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003617625s
+[GPIO] PAD C_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003617625s
+[GPIO] PAD C_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003617625s
+[GPIO] PAD C_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003638375s
+[GPIO] PAD C_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003638375s
+[GPIO] PAD C_0A is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003638375s
+[GPIO] PAD C_0B is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003638375s
+[GPIO] PAD C_0C is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003638375s
+[GPIO] PAD C_0D is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003638375s
+[GPIO] PAD C_0E is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003638375s
+[GPIO] PAD C_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003638375s
+[GPIO] PAD C_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003659125s
+[GPIO] PAD C_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003659125s
+[GPIO] PAD C_0A is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003659125s
+[GPIO] PAD C_0B is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003659125s
+[GPIO] PAD C_0C is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003659125s
+[GPIO] PAD C_0D is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003659125s
+[GPIO] PAD C_0E is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003659125s
+[GPIO] PAD C_0F is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003659125s
+[GPIO] PAD D_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003689125s
+[GPIO] PAD D_01 is configured as INPUT (Input with Push/pull) [U1_SYSINTERFACE] @0.003689125s
+[GPIO] PAD D_02 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003689125s
+[GPIO] PAD D_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003709875s
+[GPIO] PAD D_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003709875s
+[GPIO] PAD D_02 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003709875s
+[GPIO] PAD D_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003730625s
+[GPIO] PAD D_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003730625s
+[GPIO] PAD D_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003730625s
+[GPIO] PAD A_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003843500s
+[GPIO] PAD A_01 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003843500s
+[GPIO] PAD A_02 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003843500s
+[GPIO] PAD A_03 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003843500s
+[GPIO] PAD A_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003843500s
+[GPIO] PAD A_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003843500s
+[GPIO] PAD A_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003843500s
+[GPIO] PAD A_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003843500s
+[GPIO] PAD A_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003864250s
+[GPIO] PAD A_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003864250s
+[GPIO] PAD A_02 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003864250s
+[GPIO] PAD A_03 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003864250s
+[GPIO] PAD A_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003864250s
+[GPIO] PAD A_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003864250s
+[GPIO] PAD A_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003864250s
+[GPIO] PAD A_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003864250s
+[GPIO] PAD A_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003885000s
+[GPIO] PAD A_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003885000s
+[GPIO] PAD A_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003885000s
+[GPIO] PAD A_03 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003885000s
+[GPIO] PAD A_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003885000s
+[GPIO] PAD A_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003885000s
+[GPIO] PAD A_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003885000s
+[GPIO] PAD A_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003885000s
+[GPIO] PAD A_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003905750s
+[GPIO] PAD A_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003905750s
+[GPIO] PAD A_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003905750s
+[GPIO] PAD A_03 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003905750s
+[GPIO] PAD A_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003905750s
+[GPIO] PAD A_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003905750s
+[GPIO] PAD A_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003905750s
+[GPIO] PAD A_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003905750s
+[GPIO] PAD A_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003926500s
+[GPIO] PAD A_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003926500s
+[GPIO] PAD A_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003926500s
+[GPIO] PAD A_03 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003926500s
+[GPIO] PAD A_04 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003926500s
+[GPIO] PAD A_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003926500s
+[GPIO] PAD A_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003926500s
+[GPIO] PAD A_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003926500s
+[GPIO] PAD A_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003953625s
+[GPIO] PAD A_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003953625s
+[GPIO] PAD A_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003953625s
+[GPIO] PAD A_03 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003953625s
+[GPIO] PAD A_04 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003953625s
+[GPIO] PAD A_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003953625s
+[GPIO] PAD A_06 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003953625s
+[GPIO] PAD A_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003953625s
+[GPIO] PAD A_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003974375s
+[GPIO] PAD A_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003974375s
+[GPIO] PAD A_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003974375s
+[GPIO] PAD A_03 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003974375s
+[GPIO] PAD A_04 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003974375s
+[GPIO] PAD A_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003974375s
+[GPIO] PAD A_06 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003974375s
+[GPIO] PAD A_07 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003974375s
+[GPIO] PAD A_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.003995125s
+[GPIO] PAD A_09 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003995125s
+[GPIO] PAD A_0A is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003995125s
+[GPIO] PAD A_0B is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003995125s
+[GPIO] PAD A_0C is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003995125s
+[GPIO] PAD A_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003995125s
+[GPIO] PAD A_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003995125s
+[GPIO] PAD A_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.003995125s
+[GPIO] PAD A_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004015875s
+[GPIO] PAD A_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004015875s
+[GPIO] PAD A_0A is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004015875s
+[GPIO] PAD A_0B is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004015875s
+[GPIO] PAD A_0C is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004015875s
+[GPIO] PAD A_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004015875s
+[GPIO] PAD A_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004015875s
+[GPIO] PAD A_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004015875s
+[GPIO] PAD A_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004036625s
+[GPIO] PAD A_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004036625s
+[GPIO] PAD A_0A is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004036625s
+[GPIO] PAD A_0B is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004036625s
+[GPIO] PAD A_0C is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004036625s
+[GPIO] PAD A_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004036625s
+[GPIO] PAD A_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004036625s
+[GPIO] PAD A_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004036625s
+[GPIO] PAD A_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004057375s
+[GPIO] PAD A_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004057375s
+[GPIO] PAD A_0A is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004057375s
+[GPIO] PAD A_0B is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004057375s
+[GPIO] PAD A_0C is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004057375s
+[GPIO] PAD A_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004057375s
+[GPIO] PAD A_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004057375s
+[GPIO] PAD A_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004057375s
+[GPIO] PAD A_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004078125s
+[GPIO] PAD A_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004078125s
+[GPIO] PAD A_0A is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004078125s
+[GPIO] PAD A_0B is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004078125s
+[GPIO] PAD A_0C is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004078125s
+[GPIO] PAD A_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004078125s
+[GPIO] PAD A_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004078125s
+[GPIO] PAD A_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004078125s
+[GPIO] PAD A_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004098875s
+[GPIO] PAD A_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004098875s
+[GPIO] PAD A_0A is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004098875s
+[GPIO] PAD A_0B is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004098875s
+[GPIO] PAD A_0C is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004098875s
+[GPIO] PAD A_0D is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004098875s
+[GPIO] PAD A_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004098875s
+[GPIO] PAD A_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004098875s
+[GPIO] PAD A_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004119625s
+[GPIO] PAD A_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004119625s
+[GPIO] PAD A_0A is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004119625s
+[GPIO] PAD A_0B is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004119625s
+[GPIO] PAD A_0C is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004119625s
+[GPIO] PAD A_0D is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004119625s
+[GPIO] PAD A_0E is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004119625s
+[GPIO] PAD A_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004119625s
+[GPIO] PAD A_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004140375s
+[GPIO] PAD A_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004140375s
+[GPIO] PAD A_0A is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004140375s
+[GPIO] PAD A_0B is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004140375s
+[GPIO] PAD A_0C is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004140375s
+[GPIO] PAD A_0D is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004140375s
+[GPIO] PAD A_0E is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004140375s
+[GPIO] PAD A_0F is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004140375s
+[GPIO] PAD A_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004203750s
+[GPIO] PAD A_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004203750s
+[GPIO] PAD A_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004203750s
+[GPIO] PAD A_03 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004203750s
+[GPIO] PAD A_04 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004203750s
+[GPIO] PAD A_05 is configured as OUTPUT ( General purpose output Push-pull) [U1_SYSINTERFACE] @0.004203750s
+[GPIO] PAD A_06 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004203750s
+[GPIO] PAD A_07 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004203750s
+[GPIO] PAD B_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004297500s
+[GPIO] PAD B_01 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004297500s
+[GPIO] PAD B_02 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004297500s
+[GPIO] PAD B_03 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004297500s
+[GPIO] PAD B_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004297500s
+[GPIO] PAD B_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004297500s
+[GPIO] PAD B_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004297500s
+[GPIO] PAD B_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004297500s
+[GPIO] PAD B_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004318250s
+[GPIO] PAD B_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004318250s
+[GPIO] PAD B_02 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004318250s
+[GPIO] PAD B_03 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004318250s
+[GPIO] PAD B_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004318250s
+[GPIO] PAD B_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004318250s
+[GPIO] PAD B_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004318250s
+[GPIO] PAD B_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004318250s
+[GPIO] PAD B_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004339000s
+[GPIO] PAD B_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004339000s
+[GPIO] PAD B_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004339000s
+[GPIO] PAD B_03 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004339000s
+[GPIO] PAD B_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004339000s
+[GPIO] PAD B_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004339000s
+[GPIO] PAD B_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004339000s
+[GPIO] PAD B_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004339000s
+[GPIO] PAD B_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004359750s
+[GPIO] PAD B_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004359750s
+[GPIO] PAD B_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004359750s
+[GPIO] PAD B_03 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004359750s
+[GPIO] PAD B_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004359750s
+[GPIO] PAD B_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004359750s
+[GPIO] PAD B_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004359750s
+[GPIO] PAD B_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004359750s
+[GPIO] PAD B_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004380500s
+[GPIO] PAD B_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004380500s
+[GPIO] PAD B_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004380500s
+[GPIO] PAD B_03 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004380500s
+[GPIO] PAD B_04 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004380500s
+[GPIO] PAD B_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004380500s
+[GPIO] PAD B_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004380500s
+[GPIO] PAD B_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004380500s
+[GPIO] PAD B_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004401250s
+[GPIO] PAD B_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004401250s
+[GPIO] PAD B_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004401250s
+[GPIO] PAD B_03 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004401250s
+[GPIO] PAD B_04 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004401250s
+[GPIO] PAD B_05 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004401250s
+[GPIO] PAD B_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004401250s
+[GPIO] PAD B_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004401250s
+[GPIO] PAD B_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004422000s
+[GPIO] PAD B_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004422000s
+[GPIO] PAD B_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004422000s
+[GPIO] PAD B_03 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004422000s
+[GPIO] PAD B_04 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004422000s
+[GPIO] PAD B_05 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004422000s
+[GPIO] PAD B_06 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004422000s
+[GPIO] PAD B_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004422000s
+[GPIO] PAD B_00 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004442750s
+[GPIO] PAD B_01 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004442750s
+[GPIO] PAD B_02 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004442750s
+[GPIO] PAD B_03 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004442750s
+[GPIO] PAD B_04 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004442750s
+[GPIO] PAD B_05 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004442750s
+[GPIO] PAD B_06 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004442750s
+[GPIO] PAD B_07 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004442750s
+[GPIO] PAD B_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004463500s
+[GPIO] PAD B_09 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004463500s
+[GPIO] PAD B_0A is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004463500s
+[GPIO] PAD B_0B is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004463500s
+[GPIO] PAD B_0C is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004463500s
+[GPIO] PAD B_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004463500s
+[GPIO] PAD B_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004463500s
+[GPIO] PAD B_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004463500s
+[GPIO] PAD B_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004484250s
+[GPIO] PAD B_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004484250s
+[GPIO] PAD B_0A is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004484250s
+[GPIO] PAD B_0B is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004484250s
+[GPIO] PAD B_0C is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004484250s
+[GPIO] PAD B_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004484250s
+[GPIO] PAD B_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004484250s
+[GPIO] PAD B_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004484250s
+[GPIO] PAD B_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004505000s
+[GPIO] PAD B_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004505000s
+[GPIO] PAD B_0A is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004505000s
+[GPIO] PAD B_0B is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004505000s
+[GPIO] PAD B_0C is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004505000s
+[GPIO] PAD B_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004505000s
+[GPIO] PAD B_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004505000s
+[GPIO] PAD B_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004505000s
+[GPIO] PAD B_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004525750s
+[GPIO] PAD B_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004525750s
+[GPIO] PAD B_0A is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004525750s
+[GPIO] PAD B_0B is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004525750s
+[GPIO] PAD B_0C is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004525750s
+[GPIO] PAD B_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004525750s
+[GPIO] PAD B_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004525750s
+[GPIO] PAD B_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004525750s
+[GPIO] PAD B_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004546500s
+[GPIO] PAD B_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004546500s
+[GPIO] PAD B_0A is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004546500s
+[GPIO] PAD B_0B is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004546500s
+[GPIO] PAD B_0C is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004546500s
+[GPIO] PAD B_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004546500s
+[GPIO] PAD B_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004546500s
+[GPIO] PAD B_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004546500s
+[GPIO] PAD B_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004567250s
+[GPIO] PAD B_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004567250s
+[GPIO] PAD B_0A is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004567250s
+[GPIO] PAD B_0B is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004567250s
+[GPIO] PAD B_0C is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004567250s
+[GPIO] PAD B_0D is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004567250s
+[GPIO] PAD B_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004567250s
+[GPIO] PAD B_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004567250s
+[GPIO] PAD B_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004588000s
+[GPIO] PAD B_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004588000s
+[GPIO] PAD B_0A is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004588000s
+[GPIO] PAD B_0B is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004588000s
+[GPIO] PAD B_0C is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004588000s
+[GPIO] PAD B_0D is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004588000s
+[GPIO] PAD B_0E is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004588000s
+[GPIO] PAD B_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.004588000s
+[GPIO] PAD B_08 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004608750s
+[GPIO] PAD B_09 is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004608750s
+[GPIO] PAD B_0A is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004608750s
+[GPIO] PAD B_0B is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004608750s
+[GPIO] PAD B_0C is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004608750s
+[GPIO] PAD B_0D is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004608750s
+[GPIO] PAD B_0E is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004608750s
+[GPIO] PAD B_0F is configured as INPUT (Analogue mode) [U1_SYSINTERFACE] @0.004608750s
+[GPIO] drive PIO0.5 = 0 [U1_SYSINTERFACE] @0.004620500s
+[GPIO] drive PIO0.5 = 1 [U1_SYSINTERFACE] @0.004626375s
+[GPIO] drive PIO0.5 = 0 [U1_SYSINTERFACE] @0.511087250s
+[GPIO] drive PIO0.5 = 1 [U1_SYSINTERFACE] @00:00:01.011087

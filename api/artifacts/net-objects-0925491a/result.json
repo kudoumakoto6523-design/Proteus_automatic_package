@@ -1,0 +1,221 @@
+{
+  "project": "D:\\Folder\\Proteus Skills\\api\\artifacts\\net-objects-0925491a\\named_networks.pdsprj",
+  "tests": [
+    {
+      "stage": "generated",
+      "nets": [
+        {
+          "name": "GND",
+          "pins": [
+            {
+              "ref": "C2",
+              "kind": "PS",
+              "pin": "1"
+            },
+            {
+              "ref": "C1",
+              "kind": "PS",
+              "pin": "1"
+            }
+          ],
+          "terminals": [
+            {
+              "name": "GND",
+              "kind": "PT"
+            }
+          ],
+          "properties": {}
+        },
+        {
+          "name": "VCC",
+          "pins": [
+            {
+              "ref": "C2",
+              "kind": "PS",
+              "pin": "2"
+            },
+            {
+              "ref": "C1",
+              "kind": "PS",
+              "pin": "2"
+            }
+          ],
+          "terminals": [
+            {
+              "name": "VCC",
+              "kind": "PT"
+            }
+          ],
+          "properties": {}
+        },
+        {
+          "name": "BUS",
+          "pins": [
+            {
+              "ref": "C4",
+              "kind": "PS",
+              "pin": "1"
+            },
+            {
+              "ref": "C3",
+              "kind": "PS",
+              "pin": "1"
+            }
+          ],
+          "terminals": [
+            {
+              "name": "BUS",
+              "kind": "IT"
+            }
+          ],
+          "properties": {}
+        },
+        {
+          "name": "OUT",
+          "pins": [
+            {
+              "ref": "C4",
+              "kind": "PS",
+              "pin": "2"
+            },
+            {
+              "ref": "C3",
+              "kind": "PS",
+              "pin": "2"
+            }
+          ],
+          "terminals": [
+            {
+              "name": "OUT",
+              "kind": "BT"
+            }
+          ],
+          "properties": {}
+        }
+      ]
+    },
+    {
+      "stage": "reopened",
+      "nets": [
+        {
+          "name": "GND",
+          "pins": [
+            {
+              "ref": "C2",
+              "kind": "PS",
+              "pin": "1"
+            },
+            {
+              "ref": "C1",
+              "kind": "PS",
+              "pin": "1"
+            }
+          ],
+          "terminals": [
+            {
+              "name": "GND",
+              "kind": "PT"
+            }
+          ],
+          "properties": {}
+        },
+        {
+          "name": "VCC",
+          "pins": [
+            {
+              "ref": "C2",
+              "kind": "PS",
+              "pin": "2"
+            },
+            {
+              "ref": "C1",
+              "kind": "PS",
+              "pin": "2"
+            }
+          ],
+          "terminals": [
+            {
+              "name": "VCC",
+              "kind": "PT"
+            }
+          ],
+          "properties": {}
+        },
+        {
+          "name": "BUS",
+          "pins": [
+            {
+              "ref": "C4",
+              "kind": "PS",
+              "pin": "1"
+            },
+            {
+              "ref": "C3",
+              "kind": "PS",
+              "pin": "1"
+            }
+          ],
+          "terminals": [
+            {
+              "name": "BUS",
+              "kind": "IT"
+            }
+          ],
+          "properties": {}
+        },
+        {
+          "name": "OUT",
+          "pins": [
+            {
+              "ref": "C4",
+              "kind": "PS",
+              "pin": "2"
+            },
+            {
+              "ref": "C3",
+              "kind": "PS",
+              "pin": "2"
+            }
+          ],
+          "terminals": [
+            {
+              "name": "OUT",
+              "kind": "BT"
+            }
+          ],
+          "properties": {}
+        }
+      ]
+    }
+  ],
+  "rails": {
+    "rails": {
+      "GND": {
+        "voltage": 0.0,
+        "flags": "POWER"
+      },
+      "VCC": {
+        "voltage": 3.3,
+        "flags": "POWER"
+      },
+      "VEE": {
+        "voltage": -5.0,
+        "flags": "POWER"
+      }
+    },
+    "bindings": {
+      "VDD": "VCC",
+      "VSS": "GND"
+    },
+    "unknown_lines": []
+  },
+  "terminal_kinds": [
+    "bidir",
+    "ground",
+    "input",
+    "label",
+    "output",
+    "power"
+  ],
+  "hidden_power_model_behavior_verified": false
+}

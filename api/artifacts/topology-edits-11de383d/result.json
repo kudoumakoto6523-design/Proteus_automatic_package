@@ -1,0 +1,62 @@
+{
+  "output": "D:\\Folder\\Proteus Skills\\api\\artifacts\\topology-edits-11de383d",
+  "stages": [
+    {
+      "name": "01_existing_two_pin",
+      "project": "D:\\Folder\\Proteus Skills\\api\\artifacts\\topology-edits-11de383d\\01_existing_two_pin.pdsprj",
+      "parts": 3,
+      "component_nets": 5,
+      "terminals": 0,
+      "native_sdf_save_reopen": true
+    },
+    {
+      "name": "02_extend_third_pin",
+      "project": "D:\\Folder\\Proteus Skills\\api\\artifacts\\topology-edits-11de383d\\02_extend_third_pin.pdsprj",
+      "parts": 3,
+      "component_nets": 4,
+      "terminals": 0,
+      "native_sdf_save_reopen": true
+    },
+    {
+      "name": "03_add_terminal",
+      "project": "D:\\Folder\\Proteus Skills\\api\\artifacts\\topology-edits-11de383d\\03_add_terminal.pdsprj",
+      "parts": 3,
+      "component_nets": 4,
+      "terminals": 1,
+      "native_sdf_save_reopen": true
+    },
+    {
+      "name": "04_rename",
+      "project": "D:\\Folder\\Proteus Skills\\api\\artifacts\\topology-edits-11de383d\\04_rename.pdsprj",
+      "parts": 3,
+      "component_nets": 4,
+      "terminals": 1,
+      "native_sdf_save_reopen": true
+    },
+    {
+      "name": "05_move",
+      "project": "D:\\Folder\\Proteus Skills\\api\\artifacts\\topology-edits-11de383d\\05_move.pdsprj",
+      "parts": 3,
+      "component_nets": 4,
+      "terminals": 1,
+      "native_sdf_save_reopen": true
+    },
+    {
+      "name": "06_detach_pin_and_terminal",
+      "project": "D:\\Folder\\Proteus Skills\\api\\artifacts\\topology-edits-11de383d\\06_detach_pin_and_terminal.pdsprj",
+      "parts": 3,
+      "component_nets": 5,
+      "terminals": 1,
+      "native_sdf_save_reopen": true
+    },
+    {
+      "name": "07_delete_component",
+      "project": "D:\\Folder\\Proteus Skills\\api\\artifacts\\topology-edits-11de383d\\07_delete_component.pdsprj",
+      "parts": 2,
+      "component_nets": 4,
+      "terminals": 1,
+      "native_sdf_save_reopen": true
+    }
+  ],
+  "computer_use_required": false
+}

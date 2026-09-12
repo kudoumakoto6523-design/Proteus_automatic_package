@@ -1,0 +1,182 @@
+[
+  {
+    "parts": {
+      "C1": {
+        "device": "CAPACITOR",
+        "value": "100n",
+        "properties": {
+          "EID": "1"
+        }
+      },
+      "C2": {
+        "device": "CAPACITOR",
+        "value": "100n",
+        "properties": {
+          "EID": "2"
+        }
+      },
+      "C3": {
+        "device": "CAPACITOR",
+        "value": "100n",
+        "properties": {
+          "EID": "3"
+        }
+      }
+    },
+    "nets": [
+      {
+        "name": "#00000",
+        "pins": [
+          {
+            "ref": "C1",
+            "kind": "PS",
+            "pin": "1"
+          }
+        ],
+        "terminals": [],
+        "properties": {}
+      },
+      {
+        "name": "#00002",
+        "pins": [
+          {
+            "ref": "C2",
+            "kind": "PS",
+            "pin": "1"
+          }
+        ],
+        "terminals": [],
+        "properties": {}
+      },
+      {
+        "name": "#00003",
+        "pins": [
+          {
+            "ref": "C3",
+            "kind": "PS",
+            "pin": "1"
+          }
+        ],
+        "terminals": [],
+        "properties": {}
+      },
+      {
+        "name": "BUS",
+        "pins": [
+          {
+            "ref": "C1",
+            "kind": "PS",
+            "pin": "2"
+          },
+          {
+            "ref": "C2",
+            "kind": "PS",
+            "pin": "2"
+          },
+          {
+            "ref": "C3",
+            "kind": "PS",
+            "pin": "2"
+          }
+        ],
+        "terminals": [
+          {
+            "name": "BUS",
+            "kind": "OT"
+          }
+        ],
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "parts": {
+      "C1": {
+        "device": "CAPACITOR",
+        "value": "100n",
+        "properties": {
+          "EID": "1"
+        }
+      },
+      "C2": {
+        "device": "CAPACITOR",
+        "value": "100n",
+        "properties": {
+          "EID": "2"
+        }
+      },
+      "C3": {
+        "device": "CAPACITOR",
+        "value": "100n",
+        "properties": {
+          "EID": "3"
+        }
+      }
+    },
+    "nets": [
+      {
+        "name": "#00000",
+        "pins": [
+          {
+            "ref": "C1",
+            "kind": "PS",
+            "pin": "1"
+          }
+        ],
+        "terminals": [],
+        "properties": {}
+      },
+      {
+        "name": "#00002",
+        "pins": [
+          {
+            "ref": "C2",
+            "kind": "PS",
+            "pin": "1"
+          }
+        ],
+        "terminals": [],
+        "properties": {}
+      },
+      {
+        "name": "#00003",
+        "pins": [
+          {
+            "ref": "C3",
+            "kind": "PS",
+            "pin": "1"
+          }
+        ],
+        "terminals": [],
+        "properties": {}
+      },
+      {
+        "name": "BUS",
+        "pins": [
+          {
+            "ref": "C1",
+            "kind": "PS",
+            "pin": "2"
+          },
+          {
+            "ref": "C2",
+            "kind": "PS",
+            "pin": "2"
+          },
+          {
+            "ref": "C3",
+            "kind": "PS",
+            "pin": "2"
+          }
+        ],
+        "terminals": [
+          {
+            "name": "BUS",
+            "kind": "OT"
+          }
+        ],
+        "properties": {}
+      }
+    ]
+  }
+]

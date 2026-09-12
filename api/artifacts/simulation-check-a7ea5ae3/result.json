@@ -1,0 +1,133 @@
+{
+  "pid": 8188,
+  "firmware": {
+    "path": "D:\\Folder\\Proteus Skills\\api\\artifacts\\simulation-check-a7ea5ae3\\blink.elf",
+    "size": 105620,
+    "format": "elf",
+    "machine": 40,
+    "member": "FIRMWARE/STM32F103R6/Debug/Debug.elf"
+  },
+  "configured": {
+    "firmware": {
+      "path": "D:\\Folder\\Proteus Skills\\api\\artifacts\\simulation-check-a7ea5ae3\\blink.elf",
+      "size": 105620,
+      "format": "elf",
+      "machine": 40
+    },
+    "part": {
+      "device": "STM32F103R6",
+      "value": "STM32F103R6",
+      "properties": {
+        "DISASM_BIN": "0",
+        "EID": "1",
+        "ITFMOD": "CM3STM",
+        "PACKAGE": "TQFP64-12X12MM",
+        "PROGRAM": "D:\\Folder\\Proteus Skills\\api\\artifacts\\simulation-check-a7ea5ae3\\blink.elf",
+        "TRACE_BUS": "1",
+        "TRACE_CORE": "1",
+        "TRACE_CPU": "1",
+        "TRACE_DBGOUT": "1",
+        "TRACE_DMA": "1",
+        "TRACE_GPIO": "1",
+        "TRACE_I2C": "1",
+        "TRACE_INIT": "1",
+        "TRACE_INTERRUPT": "1",
+        "TRACE_RCC": "1",
+        "TRACE_SPI": "1",
+        "TRACE_USART": "1",
+        "USE_MCO": "0"
+      }
+    }
+  },
+  "initial": {
+    "state": "paused",
+    "simulation_seconds": 0.01,
+    "status_text": "PAUSED: 0.010000000s",
+    "reason": "Execution timer breakpoint: 0.010000000s",
+    "requested_seconds": 0.01,
+    "start_seconds": 0.0,
+    "end_seconds": 0.01,
+    "actual_elapsed_seconds": 0.01,
+    "overshoot_seconds": 0.0,
+    "tolerance_seconds": 0.003
+  },
+  "continued": {
+    "state": "paused",
+    "simulation_seconds": 1.25,
+    "status_text": "PAUSED: 00:00:01.250000",
+    "reason": "Execution timer breakpoint: 00:00:01.250000",
+    "requested_seconds": 1.24,
+    "start_seconds": 0.01,
+    "end_seconds": 1.25,
+    "actual_elapsed_seconds": 1.24,
+    "overshoot_seconds": 0.0,
+    "tolerance_seconds": 0.003
+  },
+  "gpio": [
+    {
+      "ref": "U1",
+      "port": 0,
+      "pin": 5,
+      "value": 0,
+      "seconds": 0.0046205
+    },
+    {
+      "ref": "U1",
+      "port": 0,
+      "pin": 5,
+      "value": 1,
+      "seconds": 0.004626375
+    },
+    {
+      "ref": "U1",
+      "port": 0,
+      "pin": 5,
+      "value": 0,
+      "seconds": 0.51108725
+    },
+    {
+      "ref": "U1",
+      "port": 0,
+      "pin": 5,
+      "value": 1,
+      "seconds": 1.011087
+    }
+  ],
+  "reset": {
+    "state": "stopped",
+    "simulation_seconds": null,
+    "status_text": "ROOT - Root sheet 1",
+    "reason": "VSM debugging session has ended."
+  },
+  "after_reset": {
+    "state": "paused",
+    "simulation_seconds": 0.01,
+    "status_text": "PAUSED: 0.010000000s",
+    "reason": "Execution timer breakpoint: 0.010000000s",
+    "requested_seconds": 0.01,
+    "start_seconds": 0.0,
+    "end_seconds": 0.01,
+    "actual_elapsed_seconds": 0.01,
+    "overshoot_seconds": 0.0,
+    "tolerance_seconds": 0.003
+  },
+  "start": {
+    "state": "running",
+    "simulation_seconds": 0.06,
+    "status_text": "ANIMATING: 0.060000000s (CPU load 0%)",
+    "reason": ""
+  },
+  "pause": {
+    "state": "paused",
+    "simulation_seconds": 0.11,
+    "status_text": "PAUSED: 0.110000000s",
+    "reason": ""
+  },
+  "stop": {
+    "state": "stopped",
+    "simulation_seconds": null,
+    "status_text": "ROOT - Root sheet 1",
+    "reason": "VSM debugging session has ended."
+  },
+  "exit_code": 0
+}

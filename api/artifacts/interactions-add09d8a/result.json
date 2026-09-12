@@ -1,0 +1,398 @@
+{
+  "version": "0.2.0",
+  "imported_from": "D:\\Folder\\Proteus Skills\\api\\proteus_api.py",
+  "stages": [
+    {
+      "devices": [
+        "BUTTON",
+        "SW-SPST",
+        "SW-SPST-MOM"
+      ],
+      "initial_run": {
+        "state": "paused",
+        "simulation_seconds": 0.01,
+        "status_text": "PAUSED: 0.010000000s",
+        "reason": "Execution timer breakpoint: 0.010000000s",
+        "completion": "timer_breakpoint",
+        "requested_seconds": 0.01,
+        "start_seconds": 0.0,
+        "end_seconds": 0.01,
+        "actual_elapsed_seconds": 0.01,
+        "overshoot_seconds": 0.0,
+        "tolerance_seconds": 0.003
+      },
+      "changes": [
+        {
+          "command": {
+            "ref": "SW1",
+            "state": 1,
+            "changed": true,
+            "command_time_seconds": 0.01
+          },
+          "after": {
+            "state": "paused",
+            "simulation_seconds": 0.02,
+            "status_text": "PAUSED: 0.020000000s",
+            "reason": "Execution timer breakpoint: 0.020000000s",
+            "completion": "timer_breakpoint",
+            "requested_seconds": 0.01,
+            "start_seconds": 0.01,
+            "end_seconds": 0.02,
+            "actual_elapsed_seconds": 0.01,
+            "overshoot_seconds": 0.0,
+            "tolerance_seconds": 0.003
+          },
+          "probes": {
+            "P1": 1,
+            "P2": 0,
+            "P3": 0
+          }
+        },
+        {
+          "command": {
+            "ref": "SW2",
+            "state": 1,
+            "changed": true,
+            "command_time_seconds": 0.02
+          },
+          "after": {
+            "state": "paused",
+            "simulation_seconds": 0.03,
+            "status_text": "PAUSED: 0.030000000s",
+            "reason": "",
+            "completion": "timer_roundoff_pause",
+            "timer_remaining_seconds": 1.734723475976807e-18,
+            "requested_seconds": 0.01,
+            "start_seconds": 0.02,
+            "end_seconds": 0.03,
+            "actual_elapsed_seconds": 0.009999999999999998,
+            "overshoot_seconds": 0.0,
+            "tolerance_seconds": 0.003
+          },
+          "probes": {
+            "P1": 1,
+            "P2": 1,
+            "P3": 0
+          }
+        },
+        {
+          "command": {
+            "ref": "SW3",
+            "state": 1,
+            "changed": true,
+            "command_time_seconds": 0.03
+          },
+          "after": {
+            "state": "paused",
+            "simulation_seconds": 0.04,
+            "status_text": "PAUSED: 0.040000000s",
+            "reason": "Execution timer breakpoint: 0.040000000s",
+            "completion": "timer_breakpoint",
+            "requested_seconds": 0.01,
+            "start_seconds": 0.03,
+            "end_seconds": 0.04,
+            "actual_elapsed_seconds": 0.010000000000000002,
+            "overshoot_seconds": 0.0,
+            "tolerance_seconds": 0.003
+          },
+          "probes": {
+            "P1": 1,
+            "P2": 1,
+            "P3": 1
+          }
+        },
+        {
+          "command": {
+            "ref": "SW1",
+            "state": 0,
+            "changed": true,
+            "command_time_seconds": 0.04
+          },
+          "after": {
+            "state": "paused",
+            "simulation_seconds": 0.05,
+            "status_text": "PAUSED: 0.050000000s",
+            "reason": "Execution timer breakpoint: 0.050000000s",
+            "completion": "timer_breakpoint",
+            "requested_seconds": 0.01,
+            "start_seconds": 0.04,
+            "end_seconds": 0.05,
+            "actual_elapsed_seconds": 0.010000000000000002,
+            "overshoot_seconds": 0.0,
+            "tolerance_seconds": 0.003
+          },
+          "probes": {
+            "P1": 0,
+            "P2": 1,
+            "P3": 1
+          }
+        },
+        {
+          "command": {
+            "ref": "SW2",
+            "state": 0,
+            "changed": true,
+            "command_time_seconds": 0.05
+          },
+          "after": {
+            "state": "paused",
+            "simulation_seconds": 0.06,
+            "status_text": "PAUSED: 0.060000000s",
+            "reason": "Execution timer breakpoint: 0.060000000s",
+            "completion": "timer_breakpoint",
+            "requested_seconds": 0.01,
+            "start_seconds": 0.05,
+            "end_seconds": 0.06,
+            "actual_elapsed_seconds": 0.009999999999999995,
+            "overshoot_seconds": 0.0,
+            "tolerance_seconds": 0.003
+          },
+          "probes": {
+            "P1": 0,
+            "P2": 0,
+            "P3": 1
+          }
+        },
+        {
+          "command": {
+            "ref": "SW3",
+            "state": 0,
+            "changed": true,
+            "command_time_seconds": 0.06
+          },
+          "after": {
+            "state": "paused",
+            "simulation_seconds": 0.07,
+            "status_text": "PAUSED: 0.070000000s",
+            "reason": "Execution timer breakpoint: 0.070000000s",
+            "completion": "timer_breakpoint",
+            "requested_seconds": 0.01,
+            "start_seconds": 0.06,
+            "end_seconds": 0.07,
+            "actual_elapsed_seconds": 0.010000000000000009,
+            "overshoot_seconds": 1.3877787807814457e-17,
+            "tolerance_seconds": 0.003
+          },
+          "probes": {
+            "P1": 0,
+            "P2": 0,
+            "P3": 0
+          }
+        }
+      ],
+      "running_input_propagation": {
+        "state": "paused",
+        "simulation_seconds": 0.08,
+        "status_text": "PAUSED: 0.080000000s",
+        "reason": "",
+        "completion": "timer_roundoff_pause",
+        "timer_remaining_seconds": 5.204170427930421e-18,
+        "requested_seconds": 0.01,
+        "start_seconds": 0.07,
+        "end_seconds": 0.08,
+        "actual_elapsed_seconds": 0.009999999999999995,
+        "overshoot_seconds": 0.0,
+        "tolerance_seconds": 0.003
+      },
+      "running_state_preserved": true
+    },
+    {
+      "devices": [
+        "SWITCH",
+        "LOGICTOGGLE",
+        "LOGICSTATE"
+      ],
+      "initial_run": {
+        "state": "paused",
+        "simulation_seconds": 0.01,
+        "status_text": "PAUSED: 0.010000000s",
+        "reason": "Execution timer breakpoint: 0.010000000s",
+        "completion": "timer_breakpoint",
+        "requested_seconds": 0.01,
+        "start_seconds": 0.0,
+        "end_seconds": 0.01,
+        "actual_elapsed_seconds": 0.01,
+        "overshoot_seconds": 0.0,
+        "tolerance_seconds": 0.003
+      },
+      "changes": [
+        {
+          "command": {
+            "ref": "SW1",
+            "state": 1,
+            "changed": true,
+            "command_time_seconds": 0.01
+          },
+          "after": {
+            "state": "paused",
+            "simulation_seconds": 0.02,
+            "status_text": "PAUSED: 0.020000000s",
+            "reason": "Execution timer breakpoint: 0.020000000s",
+            "completion": "timer_breakpoint",
+            "requested_seconds": 0.01,
+            "start_seconds": 0.01,
+            "end_seconds": 0.02,
+            "actual_elapsed_seconds": 0.01,
+            "overshoot_seconds": 0.0,
+            "tolerance_seconds": 0.003
+          },
+          "probes": {
+            "P1": 1,
+            "P2": 0,
+            "P3": 0
+          }
+        },
+        {
+          "command": {
+            "ref": "SW2",
+            "state": 1,
+            "changed": true,
+            "command_time_seconds": 0.02
+          },
+          "after": {
+            "state": "paused",
+            "simulation_seconds": 0.03,
+            "status_text": "PAUSED: 0.030000000s",
+            "reason": "",
+            "completion": "timer_roundoff_pause",
+            "timer_remaining_seconds": 1.734723475976807e-18,
+            "requested_seconds": 0.01,
+            "start_seconds": 0.02,
+            "end_seconds": 0.03,
+            "actual_elapsed_seconds": 0.009999999999999998,
+            "overshoot_seconds": 0.0,
+            "tolerance_seconds": 0.003
+          },
+          "probes": {
+            "P1": 1,
+            "P2": 1,
+            "P3": 0
+          }
+        },
+        {
+          "command": {
+            "ref": "SW3",
+            "state": 1,
+            "changed": true,
+            "command_time_seconds": 0.03
+          },
+          "after": {
+            "state": "paused",
+            "simulation_seconds": 0.04,
+            "status_text": "PAUSED: 0.040000000s",
+            "reason": "Execution timer breakpoint: 0.040000000s",
+            "completion": "timer_breakpoint",
+            "requested_seconds": 0.01,
+            "start_seconds": 0.03,
+            "end_seconds": 0.04,
+            "actual_elapsed_seconds": 0.010000000000000002,
+            "overshoot_seconds": 0.0,
+            "tolerance_seconds": 0.003
+          },
+          "probes": {
+            "P1": 1,
+            "P2": 1,
+            "P3": 1
+          }
+        },
+        {
+          "command": {
+            "ref": "SW1",
+            "state": 0,
+            "changed": true,
+            "command_time_seconds": 0.04
+          },
+          "after": {
+            "state": "paused",
+            "simulation_seconds": 0.05,
+            "status_text": "PAUSED: 0.050000000s",
+            "reason": "Execution timer breakpoint: 0.050000000s",
+            "completion": "timer_breakpoint",
+            "requested_seconds": 0.01,
+            "start_seconds": 0.04,
+            "end_seconds": 0.05,
+            "actual_elapsed_seconds": 0.010000000000000002,
+            "overshoot_seconds": 0.0,
+            "tolerance_seconds": 0.003
+          },
+          "probes": {
+            "P1": 0,
+            "P2": 1,
+            "P3": 1
+          }
+        },
+        {
+          "command": {
+            "ref": "SW2",
+            "state": 0,
+            "changed": true,
+            "command_time_seconds": 0.05
+          },
+          "after": {
+            "state": "paused",
+            "simulation_seconds": 0.06,
+            "status_text": "PAUSED: 0.060000000s",
+            "reason": "Execution timer breakpoint: 0.060000000s",
+            "completion": "timer_breakpoint",
+            "requested_seconds": 0.01,
+            "start_seconds": 0.05,
+            "end_seconds": 0.06,
+            "actual_elapsed_seconds": 0.009999999999999995,
+            "overshoot_seconds": 0.0,
+            "tolerance_seconds": 0.003
+          },
+          "probes": {
+            "P1": 0,
+            "P2": 0,
+            "P3": 1
+          }
+        },
+        {
+          "command": {
+            "ref": "SW3",
+            "state": 0,
+            "changed": true,
+            "command_time_seconds": 0.06
+          },
+          "after": {
+            "state": "paused",
+            "simulation_seconds": 0.07,
+            "status_text": "PAUSED: 0.070000000s",
+            "reason": "Execution timer breakpoint: 0.070000000s",
+            "completion": "timer_breakpoint",
+            "requested_seconds": 0.01,
+            "start_seconds": 0.06,
+            "end_seconds": 0.07,
+            "actual_elapsed_seconds": 0.010000000000000009,
+            "overshoot_seconds": 1.3877787807814457e-17,
+            "tolerance_seconds": 0.003
+          },
+          "probes": {
+            "P1": 0,
+            "P2": 0,
+            "P3": 0
+          }
+        }
+      ],
+      "running_input_propagation": {
+        "state": "paused",
+        "simulation_seconds": 0.08,
+        "status_text": "PAUSED: 0.080000000s",
+        "reason": "",
+        "completion": "timer_roundoff_pause",
+        "timer_remaining_seconds": 5.204170427930421e-18,
+        "requested_seconds": 0.01,
+        "start_seconds": 0.07,
+        "end_seconds": 0.08,
+        "actual_elapsed_seconds": 0.009999999999999995,
+        "overshoot_seconds": 0.0,
+        "tolerance_seconds": 0.003
+      },
+      "running_state_preserved": true
+    }
+  ],
+  "unknown_build_rejected": true,
+  "collision_rejected_without_input": true,
+  "all_processes_closed": true,
+  "timer_roundoff_checked": true
+}

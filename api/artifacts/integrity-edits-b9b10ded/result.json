@@ -1,0 +1,51 @@
+{
+  "output": "D:\\Folder\\Proteus Skills\\api\\artifacts\\integrity-edits-b9b10ded",
+  "mode": "native",
+  "checks": [
+    "delete_hub: serialized labels and connectivity",
+    "disconnect_branch: serialized labels and connectivity",
+    "delete_terminal: serialized labels and connectivity",
+    "binary: set_route preserves labels",
+    "star: set_route preserves labels",
+    "bus: set_route preserves labels",
+    "invalid set_route is atomic",
+    "wire label and terminal name merge logical nets only",
+    "all source fixtures unchanged"
+  ],
+  "native": [
+    {
+      "case": "delete_hub",
+      "project": "D:\\Folder\\Proteus Skills\\api\\artifacts\\integrity-edits-b9b10ded\\delete_hub.pdsprj",
+      "pid": 31392,
+      "exit_code": 0,
+      "sdf": "D:\\Folder\\Proteus Skills\\api\\artifacts\\integrity-edits-b9b10ded\\delete_hub.sdf",
+      "names": [
+        "BUS"
+      ],
+      "passed": true
+    },
+    {
+      "case": "disconnect_branch",
+      "project": "D:\\Folder\\Proteus Skills\\api\\artifacts\\integrity-edits-b9b10ded\\disconnect_branch.pdsprj",
+      "pid": 33376,
+      "exit_code": 0,
+      "sdf": "D:\\Folder\\Proteus Skills\\api\\artifacts\\integrity-edits-b9b10ded\\disconnect_branch.sdf",
+      "names": [
+        "REAL_LABEL"
+      ],
+      "passed": true
+    },
+    {
+      "case": "delete_terminal",
+      "project": "D:\\Folder\\Proteus Skills\\api\\artifacts\\integrity-edits-b9b10ded\\delete_terminal.pdsprj",
+      "pid": 6840,
+      "exit_code": 0,
+      "sdf": "D:\\Folder\\Proteus Skills\\api\\artifacts\\integrity-edits-b9b10ded\\delete_terminal.sdf",
+      "names": [
+        "REAL_LABEL",
+        "RIGHT"
+      ],
+      "passed": true
+    }
+  ]
+}

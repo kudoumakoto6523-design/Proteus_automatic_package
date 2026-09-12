@@ -1,0 +1,167 @@
+{
+  "wheel": "D:\\Folder\\Proteus Skills\\dist\\proteus_native-0.2.0-py3-none-any.whl",
+  "version": "0.2.0",
+  "bytes": 75736,
+  "sha256": "3f7dfdc0f7e7ea1bf381e65d6d6dd1001e7aa6ce4107a698a1c20439b89a8cb4",
+  "python_requires_dist": [],
+  "external_runtime": "Windows and installed Proteus 8.16 SP3",
+  "modules": {
+    "proteus_api": "c47a6e3e16eb5e56155ef81fcb2239f11b9e01fe8be6f8250f001b8794f93141",
+    "proteus_project": "f5b7b67eb10e9f88a11e1d268e160f6ddf83bfcf2763525d0664e376f20574dc",
+    "proteus_session": "68210e29425d5b71cb109f7a2c119008f249395b20c57e4057f7c497d2f165ff",
+    "proteus_native": "457c4f7986db8025b275529a5c48889aee40d50416086d84fb1f6d63a40fa0d4",
+    "component_codec": "2597148b9448e31b4f91ba40f3dbbf20919690b348e73b0a11b9731ec1b886e4",
+    "wire_codec": "04c7ec4c02567ff3c56c7c5ba243b55ec6d93da01c86d2e96d0aa8b6f331327e",
+    "pin_geometry": "d82340a9d88c1369c15c8eb84794dc4010f0553021df71020f83436c97f56774",
+    "net_objects": "ab3b36dde6f87012bd53e610777c745e3ff9006323250684df58fd9f80cfdefd",
+    "net_edit": "53fc12a97a497e1bab7d08cb4081df9417059b216b3dc3d3abc6ae2ea3f11842",
+    "device_library": "b3fe7c582fa38e04d4db0a090f85c7ed51cb40dabb4fc5eeccf5a1f735da881b",
+    "simulation": "e4529b62e899ccd5971e9e9a22baf49519043eef0553874b1c41e7231a43c2e8",
+    "interactive_native": "c8685c81c4db7b67a4ef1dbdbbb5e5d13692963325e91a4db94082d6c428706e",
+    "measurements": "e52f3e34161e2b62dc90e05e2f9498263000e8f33b1acf7322347eca384947f5",
+    "clone_research": "893d8da7ce82b15c8911717ac5b82d1dde9c8f0f974c168138acda5f7559bf50",
+    "connectivity_research": "09142b531bd25d01115f3bd31a531c42b751261a46ef7eeaee0f0b78843c8146"
+  },
+  "source_and_both_installations_match": true,
+  "installations": {
+    "python312": {
+      "version": "0.2.0",
+      "requires": [],
+      "metadata_sha256": "5ffe6d01affbba35eb0eadbbe5fab9b4ab4bd93cc82b4355161b6c8fec39d9bd",
+      "modules": {
+        "proteus_api": {
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\proteus_api.py",
+          "sha256": "c47a6e3e16eb5e56155ef81fcb2239f11b9e01fe8be6f8250f001b8794f93141"
+        },
+        "proteus_project": {
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\proteus_project.py",
+          "sha256": "f5b7b67eb10e9f88a11e1d268e160f6ddf83bfcf2763525d0664e376f20574dc"
+        },
+        "proteus_session": {
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\proteus_session.py",
+          "sha256": "68210e29425d5b71cb109f7a2c119008f249395b20c57e4057f7c497d2f165ff"
+        },
+        "proteus_native": {
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\proteus_native.py",
+          "sha256": "457c4f7986db8025b275529a5c48889aee40d50416086d84fb1f6d63a40fa0d4"
+        },
+        "component_codec": {
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\component_codec.py",
+          "sha256": "2597148b9448e31b4f91ba40f3dbbf20919690b348e73b0a11b9731ec1b886e4"
+        },
+        "wire_codec": {
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\wire_codec.py",
+          "sha256": "04c7ec4c02567ff3c56c7c5ba243b55ec6d93da01c86d2e96d0aa8b6f331327e"
+        },
+        "pin_geometry": {
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pin_geometry.py",
+          "sha256": "d82340a9d88c1369c15c8eb84794dc4010f0553021df71020f83436c97f56774"
+        },
+        "net_objects": {
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\net_objects.py",
+          "sha256": "ab3b36dde6f87012bd53e610777c745e3ff9006323250684df58fd9f80cfdefd"
+        },
+        "net_edit": {
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\net_edit.py",
+          "sha256": "53fc12a97a497e1bab7d08cb4081df9417059b216b3dc3d3abc6ae2ea3f11842"
+        },
+        "device_library": {
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\device_library.py",
+          "sha256": "b3fe7c582fa38e04d4db0a090f85c7ed51cb40dabb4fc5eeccf5a1f735da881b"
+        },
+        "simulation": {
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\simulation.py",
+          "sha256": "e4529b62e899ccd5971e9e9a22baf49519043eef0553874b1c41e7231a43c2e8"
+        },
+        "interactive_native": {
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\interactive_native.py",
+          "sha256": "c8685c81c4db7b67a4ef1dbdbbb5e5d13692963325e91a4db94082d6c428706e"
+        },
+        "measurements": {
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\measurements.py",
+          "sha256": "e52f3e34161e2b62dc90e05e2f9498263000e8f33b1acf7322347eca384947f5"
+        },
+        "clone_research": {
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\clone_research.py",
+          "sha256": "893d8da7ce82b15c8911717ac5b82d1dde9c8f0f974c168138acda5f7559bf50"
+        },
+        "connectivity_research": {
+          "path": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\connectivity_research.py",
+          "sha256": "09142b531bd25d01115f3bd31a531c42b751261a46ef7eeaee0f0b78843c8146"
+        }
+      }
+    },
+    "isolated": {
+      "version": "0.2.0",
+      "requires": [],
+      "metadata_sha256": "5ffe6d01affbba35eb0eadbbe5fab9b4ab4bd93cc82b4355161b6c8fec39d9bd",
+      "modules": {
+        "proteus_api": {
+          "path": "D:\\Folder\\Proteus Skills\\.venv-api\\Lib\\site-packages\\proteus_api.py",
+          "sha256": "c47a6e3e16eb5e56155ef81fcb2239f11b9e01fe8be6f8250f001b8794f93141"
+        },
+        "proteus_project": {
+          "path": "D:\\Folder\\Proteus Skills\\.venv-api\\Lib\\site-packages\\proteus_project.py",
+          "sha256": "f5b7b67eb10e9f88a11e1d268e160f6ddf83bfcf2763525d0664e376f20574dc"
+        },
+        "proteus_session": {
+          "path": "D:\\Folder\\Proteus Skills\\.venv-api\\Lib\\site-packages\\proteus_session.py",
+          "sha256": "68210e29425d5b71cb109f7a2c119008f249395b20c57e4057f7c497d2f165ff"
+        },
+        "proteus_native": {
+          "path": "D:\\Folder\\Proteus Skills\\.venv-api\\Lib\\site-packages\\proteus_native.py",
+          "sha256": "457c4f7986db8025b275529a5c48889aee40d50416086d84fb1f6d63a40fa0d4"
+        },
+        "component_codec": {
+          "path": "D:\\Folder\\Proteus Skills\\.venv-api\\Lib\\site-packages\\component_codec.py",
+          "sha256": "2597148b9448e31b4f91ba40f3dbbf20919690b348e73b0a11b9731ec1b886e4"
+        },
+        "wire_codec": {
+          "path": "D:\\Folder\\Proteus Skills\\.venv-api\\Lib\\site-packages\\wire_codec.py",
+          "sha256": "04c7ec4c02567ff3c56c7c5ba243b55ec6d93da01c86d2e96d0aa8b6f331327e"
+        },
+        "pin_geometry": {
+          "path": "D:\\Folder\\Proteus Skills\\.venv-api\\Lib\\site-packages\\pin_geometry.py",
+          "sha256": "d82340a9d88c1369c15c8eb84794dc4010f0553021df71020f83436c97f56774"
+        },
+        "net_objects": {
+          "path": "D:\\Folder\\Proteus Skills\\.venv-api\\Lib\\site-packages\\net_objects.py",
+          "sha256": "ab3b36dde6f87012bd53e610777c745e3ff9006323250684df58fd9f80cfdefd"
+        },
+        "net_edit": {
+          "path": "D:\\Folder\\Proteus Skills\\.venv-api\\Lib\\site-packages\\net_edit.py",
+          "sha256": "53fc12a97a497e1bab7d08cb4081df9417059b216b3dc3d3abc6ae2ea3f11842"
+        },
+        "device_library": {
+          "path": "D:\\Folder\\Proteus Skills\\.venv-api\\Lib\\site-packages\\device_library.py",
+          "sha256": "b3fe7c582fa38e04d4db0a090f85c7ed51cb40dabb4fc5eeccf5a1f735da881b"
+        },
+        "simulation": {
+          "path": "D:\\Folder\\Proteus Skills\\.venv-api\\Lib\\site-packages\\simulation.py",
+          "sha256": "e4529b62e899ccd5971e9e9a22baf49519043eef0553874b1c41e7231a43c2e8"
+        },
+        "interactive_native": {
+          "path": "D:\\Folder\\Proteus Skills\\.venv-api\\Lib\\site-packages\\interactive_native.py",
+          "sha256": "c8685c81c4db7b67a4ef1dbdbbb5e5d13692963325e91a4db94082d6c428706e"
+        },
+        "measurements": {
+          "path": "D:\\Folder\\Proteus Skills\\.venv-api\\Lib\\site-packages\\measurements.py",
+          "sha256": "e52f3e34161e2b62dc90e05e2f9498263000e8f33b1acf7322347eca384947f5"
+        },
+        "clone_research": {
+          "path": "D:\\Folder\\Proteus Skills\\.venv-api\\Lib\\site-packages\\clone_research.py",
+          "sha256": "893d8da7ce82b15c8911717ac5b82d1dde9c8f0f974c168138acda5f7559bf50"
+        },
+        "connectivity_research": {
+          "path": "D:\\Folder\\Proteus Skills\\.venv-api\\Lib\\site-packages\\connectivity_research.py",
+          "sha256": "09142b531bd25d01115f3bd31a531c42b751261a46ef7eeaee0f0b78843c8146"
+        }
+      }
+    }
+  },
+  "native_verification_reports": {
+    "baseline": "D:\\Folder\\Proteus Skills\\api\\artifacts\\installed-447ced83\\result.json",
+    "controls": "D:\\Folder\\Proteus Skills\\api\\artifacts\\interactions-5e95f58e\\result.json",
+    "button_mcu": "D:\\Folder\\Proteus Skills\\api\\artifacts\\button-mcu-aa66411e\\result.json"
+  }
+}

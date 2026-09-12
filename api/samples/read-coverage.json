@@ -1,0 +1,320 @@
+[
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\16l8.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\22v10.pdsprj",
+    "accepted": false,
+    "reason": "No supported components found"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\393_154.pdsprj",
+    "accepted": false,
+    "reason": "Unknown CDB component table"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\741.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\741chain.pdsprj",
+    "accepted": true,
+    "components": 13,
+    "refs": [
+      "BATP1",
+      "BATN1",
+      "R3",
+      "RB1",
+      "RF2",
+      "U1",
+      "U2",
+      "U3",
+      "U4",
+      "U6",
+      "U5",
+      "U7",
+      "VGEN1"
+    ]
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\741noise.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\74259.pdsprj",
+    "accepted": false,
+    "reason": "No supported components found"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\7493.pdsprj",
+    "accepted": true,
+    "components": 1,
+    "refs": [
+      "U1"
+    ]
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\ADC0808.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\ADC0831.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Cmosmono.pdsprj",
+    "accepted": false,
+    "reason": "No supported components found"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Counter5.pdsprj",
+    "accepted": false,
+    "reason": "No supported components found"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Crystal.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\DAC0808.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Diode.pdsprj",
+    "accepted": false,
+    "reason": "Not all CDB components have supported DSN records"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Equal Component Value Sallen-Key.pdsprj",
+    "accepted": false,
+    "reason": "No supported components found"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Ff.pdsprj",
+    "accepted": true,
+    "components": 9,
+    "refs": [
+      "B1",
+      "Q1",
+      "C1",
+      "C2",
+      "RL1",
+      "RB1",
+      "RB2",
+      "RL2",
+      "Q2"
+    ]
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Fourier.pdsprj",
+    "accepted": true,
+    "components": 2,
+    "refs": [
+      "R1",
+      "R2"
+    ]
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Induction 3-phase motor.pdsprj",
+    "accepted": false,
+    "reason": "No supported components found"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Induction single-phase motor with start capacitor.pdsprj",
+    "accepted": false,
+    "reason": "No supported components found"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Induction single-phase motor.pdsprj",
+    "accepted": false,
+    "reason": "No supported components found"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Invosc.pdsprj",
+    "accepted": false,
+    "reason": "Unknown CDB component table"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Lpf.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\MAYDAY.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Mixed.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Mutual1.pdsprj",
+    "accepted": true,
+    "components": 4,
+    "refs": [
+      "L1",
+      "L2",
+      "R2",
+      "R1"
+    ]
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Mutual2.pdsprj",
+    "accepted": true,
+    "components": 6,
+    "refs": [
+      "L1",
+      "L2",
+      "R2",
+      "R3",
+      "L3",
+      "R1"
+    ]
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Mutual3.pdsprj",
+    "accepted": false,
+    "reason": "Unknown CDB component table"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Peltier_Performance_Courves.pdsprj",
+    "accepted": false,
+    "reason": "No supported components found"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\plltype1.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Plltype2.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Pots.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Poweramp.pdsprj",
+    "accepted": false,
+    "reason": "Unknown CDB component table"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Ra53.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Rescap.pdsprj",
+    "accepted": true,
+    "components": 2,
+    "refs": [
+      "R1",
+      "C1"
+    ]
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Resistor.pdsprj",
+    "accepted": true,
+    "components": 10,
+    "refs": [
+      "U1",
+      "U2",
+      "R1",
+      "R2",
+      "U3",
+      "R3",
+      "R4",
+      "U4",
+      "R5",
+      "R6"
+    ]
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Rsff.pdsprj",
+    "accepted": false,
+    "reason": "No supported components found"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Spice1.pdsprj",
+    "accepted": false,
+    "reason": "Not all CDB components have supported DSN records"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Spice2.pdsprj",
+    "accepted": true,
+    "components": 3,
+    "refs": [
+      "Q1",
+      "R1",
+      "R2"
+    ]
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Sweep.pdsprj",
+    "accepted": true,
+    "components": 3,
+    "refs": [
+      "D1",
+      "R1",
+      "C1"
+    ]
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Generator Scripts\\Noise Generator.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Generator Scripts\\Piecewise Linear Waveform.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Generator Scripts\\QPSK Modulation.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Generator Scripts\\Quadrature Encoder.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Generator Scripts\\Random Voltage.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Generator Scripts\\Serial Data Generator.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Generator Scripts\\Sine Wave.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Generator Scripts\\SPI Memory Stimulus.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  },
+  {
+    "path": "C:\\ProgramData\\program\\SAMPLES\\Generator Scripts\\Triangle Wave.pdsprj",
+    "accepted": false,
+    "reason": "Requires CDB v7, one-sheet layout"
+  }
+]

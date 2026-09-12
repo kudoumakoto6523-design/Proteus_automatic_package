@@ -1,0 +1,38 @@
+{
+  "mode": "offline",
+  "rejected": [
+    "checksum",
+    "missing-eof",
+    "bad-eof",
+    "after-eof",
+    "bad-magic",
+    "truncated",
+    "bad-endian",
+    "missing-file",
+    "time-nan",
+    "time--1s",
+    "time-0.5ms",
+    "time-00:00",
+    "time-00:60:00",
+    "time-00:00:60",
+    "gpio-invalid-time",
+    "gpio-invalid-unit"
+  ],
+  "gpio": [
+    {
+      "ref": "U1",
+      "port": 0,
+      "pin": 5,
+      "value": 0,
+      "seconds": 0.0046205
+    },
+    {
+      "ref": "U1",
+      "port": 0,
+      "pin": 5,
+      "value": 1,
+      "seconds": 1.011087
+    }
+  ],
+  "native_started": false
+}

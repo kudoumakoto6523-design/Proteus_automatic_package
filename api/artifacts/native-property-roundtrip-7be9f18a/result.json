@@ -1,0 +1,28 @@
+{
+  "directory": "D:\\Folder\\Proteus Skills\\api\\artifacts\\native-property-roundtrip-7be9f18a",
+  "stages": [
+    {
+      "stage": "native_edit",
+      "value": "470n",
+      "native_save_close": true,
+      "circuit_readback": true,
+      "edited_entity_auxiliary": 0
+    },
+    {
+      "stage": "codec_save",
+      "value": "470n",
+      "native_save_close": true,
+      "circuit_readback": true,
+      "edited_entity_auxiliary": 0
+    },
+    {
+      "stage": "native_reopen",
+      "value": "470n",
+      "native_save_close": true,
+      "circuit_readback": true,
+      "edited_entity_auxiliary": 0
+    }
+  ],
+  "nets_preserved": true,
+  "unknown_auxiliary_value_rejected": true
+}

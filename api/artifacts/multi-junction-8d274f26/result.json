@@ -1,0 +1,210 @@
+[
+  {
+    "stage": "bridge_label",
+    "path": "D:\\Folder\\Proteus Skills\\api\\artifacts\\multi-junction-8d274f26\\bridge_label.pdsprj",
+    "nets": [
+      {
+        "name": "BUS_SENSE",
+        "pins": [
+          {
+            "ref": "C1",
+            "kind": "PS",
+            "pin": "1"
+          },
+          {
+            "ref": "C2",
+            "kind": "PS",
+            "pin": "1"
+          },
+          {
+            "ref": "C3",
+            "kind": "PS",
+            "pin": "1"
+          },
+          {
+            "ref": "C4",
+            "kind": "PS",
+            "pin": "1"
+          },
+          {
+            "ref": "C5",
+            "kind": "PS",
+            "pin": "1"
+          },
+          {
+            "ref": "C6",
+            "kind": "PS",
+            "pin": "1"
+          }
+        ],
+        "terminals": [
+          {
+            "name": "BUS_SENSE",
+            "kind": "LBL"
+          }
+        ],
+        "properties": {}
+      },
+      {
+        "name": "VCC",
+        "pins": [
+          {
+            "ref": "C1",
+            "kind": "PS",
+            "pin": "2"
+          },
+          {
+            "ref": "C2",
+            "kind": "PS",
+            "pin": "2"
+          },
+          {
+            "ref": "C3",
+            "kind": "PS",
+            "pin": "2"
+          },
+          {
+            "ref": "C4",
+            "kind": "PS",
+            "pin": "2"
+          },
+          {
+            "ref": "C5",
+            "kind": "PS",
+            "pin": "2"
+          },
+          {
+            "ref": "C6",
+            "kind": "PS",
+            "pin": "2"
+          }
+        ],
+        "terminals": [
+          {
+            "name": "VCC",
+            "kind": "PT"
+          }
+        ],
+        "properties": {}
+      }
+    ],
+    "junction_degrees": [
+      2,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      3,
+      4,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "stage": "rename_move",
+    "path": "D:\\Folder\\Proteus Skills\\api\\artifacts\\multi-junction-8d274f26\\renamed_moved.pdsprj",
+    "nets": [
+      {
+        "name": "BUS_SENSE",
+        "pins": [
+          {
+            "ref": "CX1",
+            "kind": "PS",
+            "pin": "1"
+          },
+          {
+            "ref": "C2",
+            "kind": "PS",
+            "pin": "1"
+          },
+          {
+            "ref": "C3",
+            "kind": "PS",
+            "pin": "1"
+          },
+          {
+            "ref": "C4",
+            "kind": "PS",
+            "pin": "1"
+          },
+          {
+            "ref": "C5",
+            "kind": "PS",
+            "pin": "1"
+          },
+          {
+            "ref": "C6",
+            "kind": "PS",
+            "pin": "1"
+          }
+        ],
+        "terminals": [
+          {
+            "name": "BUS_SENSE",
+            "kind": "LBL"
+          }
+        ],
+        "properties": {}
+      },
+      {
+        "name": "VCC",
+        "pins": [
+          {
+            "ref": "CX1",
+            "kind": "PS",
+            "pin": "2"
+          },
+          {
+            "ref": "C2",
+            "kind": "PS",
+            "pin": "2"
+          },
+          {
+            "ref": "C3",
+            "kind": "PS",
+            "pin": "2"
+          },
+          {
+            "ref": "C4",
+            "kind": "PS",
+            "pin": "2"
+          },
+          {
+            "ref": "C5",
+            "kind": "PS",
+            "pin": "2"
+          },
+          {
+            "ref": "C6",
+            "kind": "PS",
+            "pin": "2"
+          }
+        ],
+        "terminals": [
+          {
+            "name": "VCC",
+            "kind": "PT"
+          }
+        ],
+        "properties": {}
+      }
+    ],
+    "junction_degrees": [
+      2,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      3,
+      4,
+      3,
+      3,
+      2
+    ]
+  }
+]

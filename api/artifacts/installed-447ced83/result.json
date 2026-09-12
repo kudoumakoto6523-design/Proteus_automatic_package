@@ -1,0 +1,40 @@
+{
+  "version": "0.2.0",
+  "imported_from": "D:\\Folder\\Proteus Skills\\.venv-api\\Lib\\site-packages\\proteus_api.py",
+  "circuit_and_native_properties": true,
+  "simulation": {
+    "state": "paused",
+    "simulation_seconds": 0.01,
+    "status_text": "PAUSED: 0.010000000s",
+    "reason": "Execution timer breakpoint: 0.010000000s",
+    "completion": "timer_breakpoint",
+    "requested_seconds": 0.01,
+    "start_seconds": 0.0,
+    "end_seconds": 0.01,
+    "actual_elapsed_seconds": 0.01,
+    "overshoot_seconds": 0.0,
+    "tolerance_seconds": 0.003
+  },
+  "gpio": [
+    {
+      "ref": "U1",
+      "port": 0,
+      "pin": 5,
+      "value": 0,
+      "seconds": 0.0046205
+    },
+    {
+      "ref": "U1",
+      "port": 0,
+      "pin": 5,
+      "value": 1,
+      "seconds": 0.004626375
+    }
+  ],
+  "measurement": {
+    "INPUT": 1.9990082443867083,
+    "R1(2)": 1.1952872317715972,
+    "ICAP": 0.005050589440070639
+  },
+  "all_processes_closed": true
+}

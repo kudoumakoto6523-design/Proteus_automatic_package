@@ -1,0 +1,83 @@
+{
+  "project": "D:\\Folder\\Proteus Skills\\api\\artifacts\\device-import-3bbbda14\\device_models.pdsprj",
+  "catalogue_entries": 56694,
+  "metadata": [
+    {
+      "name": "1N4007",
+      "library": "C:\\ProgramData\\program\\LIBRARY\\DIODE.LIB",
+      "pins": 2,
+      "models": {
+        "PRIMITIVE": "ANALOGUE,DIODE",
+        "MODEL": "LX_D_POW,DIODE"
+      },
+      "package": "DO41"
+    },
+    {
+      "name": "2N2222",
+      "library": "C:\\ProgramData\\program\\LIBRARY\\BIPOLAR.LIB",
+      "pins": 3,
+      "models": {
+        "PRIMITIVE": "ANALOGUE,NPN",
+        "MODEL": "LX_NPN_SSHF,BIPOLAR"
+      },
+      "package": "TO18"
+    },
+    {
+      "name": "RELAY",
+      "library": "C:\\ProgramData\\program\\LIBRARY\\ACTIVE.LIB",
+      "pins": 5,
+      "models": {
+        "MODFILE": "ACTVRLY"
+      },
+      "package": null
+    },
+    {
+      "name": "LED-YELLOW",
+      "library": "C:\\ProgramData\\program\\LIBRARY\\ACTIVE.LIB",
+      "pins": 2,
+      "models": {
+        "MODFILE": "LEDA"
+      },
+      "package": null
+    },
+    {
+      "name": "ULN2003A",
+      "library": "C:\\ProgramData\\program\\LIBRARY\\ANALOG.LIB",
+      "pins": 16,
+      "models": {
+        "MODFILE": "ULN200X",
+        "ITFMOD": "ULN200X"
+      },
+      "package": "DIL16"
+    },
+    {
+      "name": "ATMEGA328P",
+      "library": "C:\\ProgramData\\program\\LIBRARY\\AVR2.LIB",
+      "pins": 29,
+      "models": {
+        "PRIMITIVE": "DIGITAL,ATMEGA328P",
+        "MODDLL": "AVR2.DLL",
+        "ITFMOD": "AVR"
+      },
+      "package": "QFP80P900X900X120-32"
+    }
+  ],
+  "native_checks": [
+    {
+      "stage": "generated",
+      "parts": 6,
+      "pins": 57,
+      "nets": 56,
+      "normal_exit": true
+    },
+    {
+      "stage": "reopened",
+      "parts": 6,
+      "pins": 57,
+      "nets": 56,
+      "normal_exit": true
+    }
+  ],
+  "source_unchanged": true,
+  "simulation_behavior_tested": false
+}

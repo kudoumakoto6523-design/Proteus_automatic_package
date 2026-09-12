@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proteus-native"
+version = "0.2.0"
+description = "Python library for native Proteus project editing and simulation on Windows"
+requires-python = ">=3.10"
+readme = "api/README.md"
+classifiers = ["Operating System :: Microsoft :: Windows", "Programming Language :: Python :: 3"]
+
+[tool.setuptools]
+package-dir = {"" = "api"}
+py-modules = ["proteus_api", "proteus_project", "proteus_session", "proteus_native", "component_codec", "wire_codec", "pin_geometry", "net_objects", "net_edit", "device_library", "simulation", "interactive_native", "measurements", "clone_research", "connectivity_research"]

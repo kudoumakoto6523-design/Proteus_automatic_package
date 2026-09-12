@@ -1,0 +1,4 @@
+# Preserve source and artifact bytes used by the build manifest.
+* -text whitespace=cr-at-eol
+# Keep native log output verbatim, including its original line endings.
+api/artifacts/**/*.log -whitespace

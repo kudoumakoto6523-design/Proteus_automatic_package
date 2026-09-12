@@ -1,0 +1,60 @@
+# Local Python environments and build outputs
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+/build/
+/dist/*
+!/dist/proteus_native-0.2.0-py3-none-any.whl
+!/dist/build_manifest.json
+
+# Downloaded projects and exploratory work
+/tools/
+/research/
+
+# Local configuration and Proteus working files
+.env
+.env.*
+!.env.example
+*.workspace
+*.pdsprj
+*.sdf
+*.adi
+*.bak
+*.tmp
+Project Backups/
+Thumbs.db
+.DS_Store
+
+# Retain the small reports referenced by documentation
+/api/artifacts/**
+!/api/artifacts/**/
+!/api/artifacts/button-mcu-aa66411e/result.json
+!/api/artifacts/button-mcu-aa66411e/simulation.log
+!/api/artifacts/button-mcu-d759e93c/result.json
+!/api/artifacts/button-mcu-d759e93c/simulation.log
+!/api/artifacts/device-edit-3f82eedb/result.json
+!/api/artifacts/device-import-3bbbda14/result.json
+!/api/artifacts/donor-import-cd4b6a90/result.json
+!/api/artifacts/edit-check-6b33bf76/result.json
+!/api/artifacts/four_slot_result.json
+!/api/artifacts/incremental-64d8d344/result.json
+!/api/artifacts/installed-447ced83/result.json
+!/api/artifacts/integrity-edits-b9b10ded/result.json
+!/api/artifacts/interactions-5e95f58e/result.json
+!/api/artifacts/interactions-add09d8a/result.json
+!/api/artifacts/label-roundtrip-c2346bda/result.json
+!/api/artifacts/measurement-check-c048d7fb/result.json
+!/api/artifacts/multi-junction-8d274f26/result.json
+!/api/artifacts/native-property-roundtrip-7be9f18a/result.json
+!/api/artifacts/net-objects-0925491a/result.json
+!/api/artifacts/simulation-check-a7ea5ae3/result.json
+!/api/artifacts/simulation-check-a7ea5ae3/simulation.log
+!/api/artifacts/simulation-offline-81effc15/result.json
+!/api/artifacts/six_cap_bus_result.json
+!/api/artifacts/source-devices-fb74e7b6/result.json
+!/api/artifacts/topology-edits-11de383d/result.json
+
+/api/samples/*
+!/api/samples/*.json

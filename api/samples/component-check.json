@@ -1,0 +1,12 @@
+{
+  "checks": "passed",
+  "source_unchanged": true,
+  "variable_length_fields": true,
+  "multiple_adds": true,
+  "isolated_pin_references": true,
+  "repeatable_member_bytes": true,
+  "shared_wire_reference_and_automatic_endpoints": true,
+  "candidate_graph_rejection_is_atomic": true,
+  "invalid_inputs_rejected_without_mutation": true,
+  "application_validation": "Separate Proteus open/SDF test"
+}

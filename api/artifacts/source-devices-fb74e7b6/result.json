@@ -1,0 +1,34 @@
+{
+  "project": "D:\\Folder\\Proteus Skills\\api\\artifacts\\source-devices-fb74e7b6\\voltage_sources.pdsprj",
+  "results": [
+    {
+      "stage": "generated",
+      "parts": {
+        "V_DC1": {
+          "device": "VSOURCE",
+          "value": "12.345V",
+          "properties": {
+            "EID": "1"
+          }
+        }
+      },
+      "normal_exit": true
+    },
+    {
+      "stage": "reopened",
+      "parts": {
+        "V_DC1": {
+          "device": "VSOURCE",
+          "value": "12.345V",
+          "properties": {
+            "EID": "1"
+          }
+        }
+      },
+      "normal_exit": true
+    }
+  ],
+  "variable_length_source_parameters": true,
+  "waveform_behavior_tested": false,
+  "unsupported_vpulse_rejected_atomically": true
+}

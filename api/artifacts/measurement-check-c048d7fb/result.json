@@ -1,0 +1,36 @@
+{
+  "output": "D:\\Folder\\Proteus Skills\\api\\artifacts\\measurement-check-c048d7fb",
+  "results": [
+    {
+      "amplitude": "1",
+      "graph": "ANALOGUE ANALYSIS",
+      "samples": 83,
+      "time": 0.00025,
+      "values": {
+        "INPUT": 0.9995021921373762,
+        "R1(2)": 0.5976426858298206,
+        "ICAP": 0.00252528983660869
+      },
+      "simulated": true
+    },
+    {
+      "amplitude": "2",
+      "graph": "ANALOGUE ANALYSIS",
+      "samples": 83,
+      "time": 0.00025,
+      "values": {
+        "INPUT": 1.9990082443867083,
+        "R1(2)": 1.1952872317715972,
+        "ICAP": 0.005050589440070639
+      },
+      "simulated": true
+    }
+  ],
+  "amplitude_ratios": {
+    "INPUT": 2.000003862034507,
+    "R1(2)": 2.000003112414826,
+    "ICAP": 2.0000038676167455
+  },
+  "fresh_simulation_verified": true,
+  "source_unchanged": true
+}

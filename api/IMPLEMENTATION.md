@@ -18,7 +18,7 @@
 
 所有原生检查使用独立副本和自行启动的 PID。失败研究探针保留用于诊断，不算通过证据。
 
-安装包：`dist/proteus_native-0.2.0-py3-none-any.whl`。本机可直接 `from proteus_api import Circuit, Session, Simulation`；独立环境位于 `.venv-api`。`py -3.12 -I api/check_installed.py` 可复验已安装版本，`-I` 避免源码目录掩盖打包缺失。
+安装包：`dist/proteus_native-0.2.0-py3-none-any.whl`。本机可直接 `from proteus_api import Circuit, Session, Simulation`；本机独立环境位于仓库外的 `../.venv-api`。`py -3.12 -I api/check_installed.py` 可复验已安装版本，`-I` 避免源码目录掩盖打包缺失。
 
 ## 按钮与开关交互
 

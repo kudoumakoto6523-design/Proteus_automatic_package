@@ -186,4 +186,4 @@ The detailed documents below are currently in Simplified Chinese.
 
 The project's original code and documentation are available under the [MIT License](LICENSE).
 
-Third-party projects, Proteus software, device models, and samples are excluded from this project's MIT license and remain subject to their respective licenses. The `tools/`, `research/`, and `api/artifacts/` directories contain such material.
+Third-party projects, Proteus software, device models, and samples are excluded from this project's MIT license and remain subject to their respective licenses.

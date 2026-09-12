@@ -184,4 +184,4 @@ py -3.12 -I api/check_button_mcu.py
 
 本项目原创代码和文档采用 [MIT License](LICENSE)。
 
-第三方项目、Proteus 程序、器件模型及样例不在本项目的 MIT 授权范围内，适用各自的许可证。`tools/`、`research/` 和 `api/artifacts/` 中包含此类内容。
+第三方项目、Proteus 程序、器件模型及样例不在本项目的 MIT 授权范围内，适用各自的许可证。

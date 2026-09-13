@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 import uuid
 
-import proteus_api as p
+import proteus_automatic_api as p
 from interactive_native import snapshot
 
 

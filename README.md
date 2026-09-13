@@ -1,8 +1,8 @@
-# proteus-native
+# proteus-automatic-api
 
 **简体中文** | [English](README.en.md)
 
-proteus-native 是一个用于创建、编辑和仿真 Proteus 电路的 Python 库。它提供原理图文件读写、网表导出、单片机固件加载、按钮和开关控制及仿真结果读取接口。仿真由已安装的 Proteus 程序执行，代码不依赖 computer-use 或屏幕坐标。
+proteus-automatic-api 是一个用于创建、编辑和仿真 Proteus 电路的 Python 库。它提供原理图文件读写、网表导出、单片机固件加载、按钮和开关控制及仿真结果读取接口。仿真由已安装的 Proteus 程序执行，代码不依赖 computer-use 或屏幕坐标。
 
 **版本 0.2.0 · 开发者预览版。** 测试环境为 Windows、Python 3.12 和 Proteus 8.16 SP3（8.16.36097）。
 
@@ -15,10 +15,12 @@ proteus-native 是一个用于创建、编辑和仿真 Proteus 电路的 Python 
 
 ## 安装
 
-在项目根目录的 PowerShell 中安装 [wheel](dist/proteus_native-0.2.0-py3-none-any.whl)：
+建议在新的虚拟环境安装，避免旧发行包共享内部模块产生冲突。公开导入名统一为 `proteus_automatic_api`。
+
+在项目根目录的 PowerShell 中安装 [wheel](dist/proteus_automatic_api-0.2.0-py3-none-any.whl)：
 
 ```powershell
-py -3.12 -m pip install --no-index --no-deps '.\dist\proteus_native-0.2.0-py3-none-any.whl'
+py -3.12 -m pip install --no-index --no-deps '.\dist\proteus_automatic_api-0.2.0-py3-none-any.whl'
 ```
 
 也可从源码安装：
@@ -27,10 +29,10 @@ py -3.12 -m pip install --no-index --no-deps '.\dist\proteus_native-0.2.0-py3-no
 py -3.12 -m pip install .
 ```
 
-包名为 `proteus-native`，导入名为 `proteus_api`。以下命令应输出 `0.2.0`：
+包名为 `proteus-automatic-api`，导入名为 `proteus_automatic_api`。以下命令应输出 `0.2.0`：
 
 ```powershell
-py -3.12 -c "import proteus_api; print(proteus_api.__version__)"
+py -3.12 -c "import proteus_automatic_api; print(proteus_automatic_api.__version__)"
 ```
 
 源码安装需要 `setuptools>=68`；安装 wheel 不需要构建工具。
@@ -52,7 +54,7 @@ py -3.12 -c "import proteus_api; print(proteus_api.__version__)"
 将 `template` 改为实际的官方样例路径。下面的代码创建包含电阻、电容、连线和地端子的 `.pdsprj` 工程。
 
 ```python
-from proteus_api import Circuit
+from proteus_automatic_api import Circuit
 
 template = r"C:\ProgramData\program\SAMPLES\Graph Based Simulation\Rescap.pdsprj"
 circuit = Circuit(template_project=template)
@@ -69,7 +71,7 @@ print(project)
 在同一脚本中继续执行以下代码，并按安装位置修改 `executable`，即可导出 Proteus 编译的 SDF 网表：
 
 ```python
-from proteus_api import Session
+from proteus_automatic_api import Session
 
 session = Session(project, executable=r"D:\Proteus\BIN\PDS.EXE")
 netlist = session.export_netlist("rc.sdf")
@@ -103,7 +105,7 @@ session.close()
 下面使用已有可仿真工程，其中 `SW1` 是连接好的 `BUTTON`。先绑定控件并保存，再用新的 `Session` 打开保存后的工程：
 
 ```python
-from proteus_api import Circuit, Session, Simulation
+from proteus_automatic_api import Circuit, Session, Simulation
 
 circuit = Circuit.open("button_circuit.pdsprj")
 circuit.bind_controls("SW1")

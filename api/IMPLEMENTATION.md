@@ -1,6 +1,6 @@
 # 基础库实施与验收
 
-2026-09-12，Windows，Proteus 8.16 SP3（8.16.36097）。统一入口 `proteus_api`，包名 `proteus-native`，版本 0.2.0。
+2026-09-12，Windows，Proteus 8.16 SP3（8.16.36097）。统一入口 `proteus_automatic_api`，包名 `proteus-automatic-api`，版本 0.2.0。
 运行依赖为 Python 标准库和已安装的 Proteus；库通过原生文件和 Windows 接口工作，不依赖 computer-use、OCR 或截图定位。
 
 | 基础能力 | 本机实际验收 | 证据 |
@@ -16,9 +16,9 @@
 | STM32 按钮输入（0.2.0 安装包） | BUTTON → PA0 → 固件 → PA5；PA5 在 0.002507875s、0.011635125s、0.021464375s 分别为 0、1、0 | [结果](artifacts/button-mcu-aa66411e/result.json)、[原生日志](artifacts/button-mcu-aa66411e/simulation.log) |
 | 可安装库（0.2.0） | wheel 构建、独立环境 `python -I` 导入并完成工程编辑、固件加载、GPIO 和模拟量读取；同时安装至本机 Python 3.12 | [安装包验证](artifacts/installed-447ced83/result.json)、[构建清单](../dist/build_manifest.json) |
 
-所有原生检查使用独立副本和自行启动的 PID。失败研究探针保留用于诊断，不算通过证据。
+所有原生检查使用独立副本和自行启动的 PID。失败研究探针保留用于诊断，不算通过证据。上表保留改名前的历史测试记录；新包名的构建和安装验证见构建清单。
 
-安装包：`dist/proteus_native-0.2.0-py3-none-any.whl`。本机可直接 `from proteus_api import Circuit, Session, Simulation`；本机独立环境位于仓库外的 `../.venv-api`。`py -3.12 -I api/check_installed.py` 可复验已安装版本，`-I` 避免源码目录掩盖打包缺失。
+安装包：`dist/proteus_automatic_api-0.2.0-py3-none-any.whl`。本机可直接 `from proteus_automatic_api import Circuit, Session, Simulation`；本机独立环境位于仓库外的 `../.venv-api`。`py -3.12 -I api/check_installed.py` 可复验已安装版本，`-I` 避免源码目录掩盖打包缺失。
 
 ## 按钮与开关交互
 

@@ -1,0 +1,175 @@
+{
+  "通过": true,
+  "官方样例": "C:\\ProgramData\\program\\SAMPLES\\VSM for Cortex M3\\STM32\\STMCubeMX LED Blink\\STMCubeMX LED Blink.pdsprj",
+  "固件": {
+    "path": "D:\\Folder\\Proteus Skills\\proteus-automatic-api\\api\\examples\\button_mcu\\pa0_to_pa5.hex",
+    "size": 530,
+    "format": "hex"
+  },
+  "阶段": [
+    {
+      "操作": "初始松开",
+      "运行": {
+        "state": "paused",
+        "simulation_seconds": 0.01,
+        "status_text": "PAUSED: 0.010000000s",
+        "reason": "Execution timer breakpoint: 0.010000000s",
+        "completion": "timer_breakpoint",
+        "requested_seconds": 0.01,
+        "start_seconds": 0.0,
+        "end_seconds": 0.01,
+        "actual_elapsed_seconds": 0.01,
+        "overshoot_seconds": 0.0,
+        "tolerance_seconds": 0.003
+      }
+    },
+    {
+      "操作": "按下 SW1",
+      "返回值": {
+        "ref": "SW1",
+        "state": 1,
+        "changed": true,
+        "command_time_seconds": 0.01
+      },
+      "运行": {
+        "state": "paused",
+        "simulation_seconds": 0.02,
+        "status_text": "PAUSED: 0.020000000s",
+        "reason": "Execution timer breakpoint: 0.020000000s",
+        "completion": "timer_breakpoint",
+        "requested_seconds": 0.01,
+        "start_seconds": 0.01,
+        "end_seconds": 0.02,
+        "actual_elapsed_seconds": 0.01,
+        "overshoot_seconds": 0.0,
+        "tolerance_seconds": 0.003
+      }
+    },
+    {
+      "操作": "松开 SW1",
+      "返回值": {
+        "ref": "SW1",
+        "state": 0,
+        "changed": true,
+        "command_time_seconds": 0.02
+      },
+      "运行": {
+        "state": "paused",
+        "simulation_seconds": 0.03,
+        "status_text": "PAUSED: 0.030000000s",
+        "reason": "",
+        "completion": "timer_roundoff_pause",
+        "timer_remaining_seconds": 1.734723475976807e-18,
+        "requested_seconds": 0.01,
+        "start_seconds": 0.02,
+        "end_seconds": 0.03,
+        "actual_elapsed_seconds": 0.009999999999999998,
+        "overshoot_seconds": 0.0,
+        "tolerance_seconds": 0.003
+      }
+    }
+  ],
+  "导入库文件": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\proteus-automatic-api-rename-s4_lyumd\\venv\\Lib\\site-packages\\proteus_automatic_api.py",
+  "安装分发版本": "0.2.0",
+  "模板进程PID": 8776,
+  "模板固件": {
+    "firmware": {
+      "path": "D:\\Folder\\Proteus Skills\\proteus-automatic-api\\api\\examples\\button_mcu\\pa0_to_pa5.hex",
+      "size": 530,
+      "format": "hex"
+    },
+    "part": {
+      "device": "STM32F103R6",
+      "value": "STM32F103R6",
+      "properties": {
+        "DISASM_BIN": "0",
+        "EID": "1",
+        "ITFMOD": "CM3STM",
+        "PACKAGE": "TQFP64-12X12MM",
+        "PROGRAM": "D:\\Folder\\Proteus Skills\\proteus-automatic-api\\api\\examples\\button_mcu\\pa0_to_pa5.hex",
+        "TRACE_BUS": "1",
+        "TRACE_CORE": "1",
+        "TRACE_CPU": "1",
+        "TRACE_DBGOUT": "1",
+        "TRACE_DMA": "1",
+        "TRACE_GPIO": "1",
+        "TRACE_I2C": "1",
+        "TRACE_INIT": "1",
+        "TRACE_INTERRUPT": "1",
+        "TRACE_RCC": "1",
+        "TRACE_SPI": "1",
+        "TRACE_USART": "1",
+        "USE_MCO": "0"
+      }
+    }
+  },
+  "模板规范化": {
+    "退出码": 0,
+    "进程已关闭": true
+  },
+  "工程": "D:\\Folder\\Proteus Skills\\proteus-automatic-api\\api\\artifacts\\button-mcu-5658bb27\\button_mcu.pdsprj",
+  "电源轨": {
+    "rails": {
+      "GND": {
+        "voltage": 0.0,
+        "flags": "POWER"
+      },
+      "VCC/VDD": {
+        "voltage": 3.3,
+        "flags": "POWER"
+      },
+      "VEE": {
+        "voltage": -3.3,
+        "flags": "POWER"
+      }
+    },
+    "bindings": {
+      "VCC": "VCC/VDD",
+      "VDD": "VCC/VDD",
+      "VDDA": "VCC/VDD",
+      "VSS": "GND",
+      "VSSA": "GND"
+    },
+    "unknown_lines": []
+  },
+  "仿真进程PID": 2208,
+  "PA5事件": [
+    {
+      "ref": "U1",
+      "port": 0,
+      "pin": 5,
+      "value": 0,
+      "seconds": 0.002507875
+    },
+    {
+      "ref": "U1",
+      "port": 0,
+      "pin": 5,
+      "value": 1,
+      "seconds": 0.011635125
+    },
+    {
+      "ref": "U1",
+      "port": 0,
+      "pin": 5,
+      "value": 0,
+      "seconds": 0.021464375
+    }
+  ],
+  "PA5去重电平": [
+    0,
+    1,
+    0
+  ],
+  "关闭": {
+    "停止": {
+      "state": "stopped",
+      "simulation_seconds": null,
+      "status_text": "ROOT - Root sheet 1",
+      "reason": "VSM debugging session has ended."
+    },
+    "退出码": 0,
+    "进程已关闭": true
+  },
+  "原样例未修改": true
+}

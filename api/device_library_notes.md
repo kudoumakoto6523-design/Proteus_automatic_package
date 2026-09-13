@@ -3,7 +3,7 @@
 `Library()` 直接读取本机 `C:\ProgramData\program\LIBRARY` 的 DEVICE LIBRARY v400 目录，当前安装共 56,694 个器件目录条目。`search()` 按器件名/库名查找，`get()` 返回完整来源、器件描述、引脚表、默认属性、模型字段、封装与引脚映射文本。跨库同名器件必须指定库名，例如 `1N4007` 不能仅凭名字选择。
 
 ```python
-from proteus_api import Circuit
+from proteus_automatic_api import Circuit
 from device_library import Library
 
 library = Library()

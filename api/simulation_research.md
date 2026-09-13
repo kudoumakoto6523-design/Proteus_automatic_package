@@ -6,7 +6,7 @@
 不依赖 Computer Use、OCR、桌面坐标或外部 Python 包。
 
 ```python
-from proteus_api import Session, Simulation
+from proteus_automatic_api import Session, Simulation
 
 session = Session("your-copy.pdsprj")
 sim = Simulation(session)

@@ -1,4 +1,4 @@
-"""Native Proteus project editing and Windows simulation control."""
+"""Public API for proteus-automatic-api project editing and simulation control."""
 from proteus_project import Project, UnsupportedFormat
 from proteus_session import Session, parse_sdf
 from component_codec import Circuit

@@ -1,0 +1,148 @@
+PROSPICE 8.13.00 (Build 32709) (C) Labcenter Electronics 1993-2023.
+Loaded netlist 'C:\Users\ADMINI~1\AppData\Local\Temp\LISA8949.SDF' for design 'Generated circuit'
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+QCursor: Cannot create bitmap cursor; invalid bitmap(s)
+[GPIO] PIOA_0 connected to PAD A_00 [U1_SYSINTERFACE]
+[GPIO] PIOA_1 connected to PAD A_01 [U1_SYSINTERFACE]
+[GPIO] PIOA_2 connected to PAD A_02 [U1_SYSINTERFACE]
+[GPIO] PIOA_3 connected to PAD A_03 [U1_SYSINTERFACE]
+[GPIO] PIOA_4 connected to PAD A_04 [U1_SYSINTERFACE]
+[GPIO] PIOA_5 connected to PAD A_05 [U1_SYSINTERFACE]
+[GPIO] PIOA_6 connected to PAD A_06 [U1_SYSINTERFACE]
+[GPIO] PIOA_7 connected to PAD A_07 [U1_SYSINTERFACE]
+[GPIO] PIOA_8 connected to PAD A_08 [U1_SYSINTERFACE]
+[GPIO] PIOA_9 connected to PAD A_09 [U1_SYSINTERFACE]
+[GPIO] PIOA_10 connected to PAD A_0A [U1_SYSINTERFACE]
+[GPIO] PIOA_11 connected to PAD A_0B [U1_SYSINTERFACE]
+[GPIO] PIOA_12 connected to PAD A_0C [U1_SYSINTERFACE]
+[GPIO] PIOA_13 connected to PAD A_0D [U1_SYSINTERFACE]
+[GPIO] PIOA_14 connected to PAD A_0E [U1_SYSINTERFACE]
+[GPIO] PIOA_15 connected to PAD A_0F [U1_SYSINTERFACE]
+[GPIO] PIOB_0 connected to PAD B_00 [U1_SYSINTERFACE]
+[GPIO] PIOB_1 connected to PAD B_01 [U1_SYSINTERFACE]
+[GPIO] PIOB_2 connected to PAD B_02 [U1_SYSINTERFACE]
+[GPIO] PIOB_3 connected to PAD B_03 [U1_SYSINTERFACE]
+[GPIO] PIOB_4 connected to PAD B_04 [U1_SYSINTERFACE]
+[GPIO] PIOB_5 connected to PAD B_05 [U1_SYSINTERFACE]
+[GPIO] PIOB_6 connected to PAD B_06 [U1_SYSINTERFACE]
+[GPIO] PIOB_7 connected to PAD B_07 [U1_SYSINTERFACE]
+[GPIO] PIOB_8 connected to PAD B_08 [U1_SYSINTERFACE]
+[GPIO] PIOB_9 connected to PAD B_09 [U1_SYSINTERFACE]
+[GPIO] PIOB_10 connected to PAD B_0A [U1_SYSINTERFACE]
+[GPIO] PIOB_11 connected to PAD B_0B [U1_SYSINTERFACE]
+[GPIO] PIOB_12 connected to PAD B_0C [U1_SYSINTERFACE]
+[GPIO] PIOB_13 connected to PAD B_0D [U1_SYSINTERFACE]
+[GPIO] PIOB_14 connected to PAD B_0E [U1_SYSINTERFACE]
+[GPIO] PIOB_15 connected to PAD B_0F [U1_SYSINTERFACE]
+[GPIO] PIOC_0 connected to PAD C_00 [U1_SYSINTERFACE]
+[GPIO] PIOC_1 connected to PAD C_01 [U1_SYSINTERFACE]
+[GPIO] PIOC_2 connected to PAD C_02 [U1_SYSINTERFACE]
+[GPIO] PIOC_3 connected to PAD C_03 [U1_SYSINTERFACE]
+[GPIO] PIOC_4 connected to PAD C_04 [U1_SYSINTERFACE]
+[GPIO] PIOC_5 connected to PAD C_05 [U1_SYSINTERFACE]
+[GPIO] PIOC_6 connected to PAD C_06 [U1_SYSINTERFACE]
+[GPIO] PIOC_7 connected to PAD C_07 [U1_SYSINTERFACE]
+[GPIO] PIOC_8 connected to PAD C_08 [U1_SYSINTERFACE]
+[GPIO] PIOC_9 connected to PAD C_09 [U1_SYSINTERFACE]
+[GPIO] PIOC_10 connected to PAD C_0A [U1_SYSINTERFACE]
+[GPIO] PIOC_11 connected to PAD C_0B [U1_SYSINTERFACE]
+[GPIO] PIOC_12 connected to PAD C_0C [U1_SYSINTERFACE]
+[GPIO] PIOC_13 connected to PAD C_0D [U1_SYSINTERFACE]
+[GPIO] PIOC_14 connected to PAD C_0E [U1_SYSINTERFACE]
+[GPIO] PIOC_15 connected to PAD C_0F [U1_SYSINTERFACE]
+[GPIO] PIOD_0 connected to PAD D_00 [U1_SYSINTERFACE]
+[GPIO] PIOD_1 connected to PAD D_01 [U1_SYSINTERFACE]
+[GPIO] PIOD_2 connected to PAD D_02 [U1_SYSINTERFACE]
+Loading HEX file 'D:\Folder\Proteus Skills\proteus-automatic-api\api\examples\button_mcu\pa0_to_pa5.hex'. [U1_CM3CORE]
+Read total of 168 bytes from file 'D:\Folder\Proteus Skills\proteus-automatic-api\api\examples\button_mcu\pa0_to_pa5.hex'. [U1_CM3CORE]
+[GPIO] PAD A_00 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_01 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_02 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_03 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_08 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_09 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_0A is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_0B is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_0C is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_00 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_01 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_02 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_03 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_08 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_09 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_0A is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_0B is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_0C is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD B_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_00 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_01 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_02 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_03 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_05 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_08 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_09 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_0A is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_0B is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_0C is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_0D is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_0E is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD C_0F is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD D_00 is configured as INPUT (Input with Push/pull) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD D_01 is configured as INPUT (Input with Push/pull) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD D_02 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002500000s
+[GPIO] PAD A_00 is configured as INPUT (Input with Push/pull) [U1_SYSINTERFACE] @0.002505125s
+[GPIO] PAD A_01 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002505125s
+[GPIO] PAD A_02 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002505125s
+[GPIO] PAD A_03 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002505125s
+[GPIO] PAD A_04 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002505125s
+[GPIO] PAD A_05 is configured as OUTPUT ( General purpose output Push-pull) [U1_SYSINTERFACE] @0.002505125s
+[GPIO] PAD A_06 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002505125s
+[GPIO] PAD A_07 is configured as INPUT (Floating input) [U1_SYSINTERFACE] @0.002505125s
+[GPIO] drive PIO0.5 = 0 [U1_SYSINTERFACE] @0.002507875s
+[GPIO] drive PIO0.5 = 1 [U1_SYSINTERFACE] @0.011635125s
+[GPIO] drive PIO0.5 = 0 [U1_SYSINTERFACE] @0.021464375s

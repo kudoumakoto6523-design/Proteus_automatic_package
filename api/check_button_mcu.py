@@ -14,8 +14,8 @@ import traceback
 import uuid
 from zipfile import ZipFile
 
-from proteus_api import Circuit, Project, Session, Simulation, firmware_info, gpio_events
-import proteus_api
+from proteus_automatic_api import Circuit, Project, Session, Simulation, firmware_info, gpio_events
+import proteus_automatic_api
 
 
 ROOT = Path(__file__).resolve().parent
@@ -49,11 +49,11 @@ def run(sample=DEFAULT_SAMPLE, executable=r'D:\Proteus\BIN\PDS.EXE', output=None
     output.mkdir(parents=True, exist_ok=False)
     firmware = ROOT / 'examples' / 'button_mcu' / 'pa0_to_pa5.hex'
     try:
-        installed_version = version('proteus-native')
+        installed_version = version('proteus-automatic-api')
     except PackageNotFoundError:
         installed_version = None
     result = {'通过': False, '官方样例': str(sample), '固件': firmware_info(firmware), '阶段': [],
-              '导入库文件': proteus_api.__file__, '安装分发版本': installed_version}
+              '导入库文件': proteus_automatic_api.__file__, '安装分发版本': installed_version}
     session = sim = None
     print(json.dumps({'directory': str(output)}, ensure_ascii=False), flush=True)
     try:

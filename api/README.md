@@ -1,8 +1,10 @@
-# proteus-native
+# proteus-automatic-api
 
 用 Python 读写真实 Proteus 工程、调用原生网表编译器、控制仿真以及操作按钮和开关。版本 0.2.0，测试环境为 Windows / Proteus 8.16 SP3（8.16.36097）。运行时仅依赖 Python 标准库及已安装的 Proteus，不依赖 computer-use 或屏幕坐标。仿真由真实 Proteus 进程执行。
 
 ## 安装
+
+使用独立环境按[安装说明](../README.md#安装)安装 `proteus-automatic-api`；公开导入名为 `proteus_automatic_api`。
 
 ```powershell
 py -3.12 -m pip install .
@@ -13,7 +15,7 @@ py -3.12 -m pip install .
 ## 新建、添加与连接
 
 ```python
-from proteus_api import Circuit, Library
+from proteus_automatic_api import Circuit, Library
 
 catalogue = Library()
 print(catalogue.search('ATMEGA328'))
@@ -35,7 +37,7 @@ c.save('circuit.pdsprj')
 ## 编辑已有工程
 
 ```python
-from proteus_api import Circuit
+from proteus_automatic_api import Circuit
 
 c = Circuit.open('circuit.pdsprj')
 c.update('R1', value='22k')
@@ -51,6 +53,18 @@ c.save('revised.pdsprj')
 ```
 
 `Circuit()` 新建；`Circuit.open(path)` 保留已识别原对象。空工程、删到空工程、变长编号/值/参数均支持。保存先校验完整临时文件，再原子替换；覆盖输入工程时检查是否被其他程序修改。未知对象/未支持结构会拒绝整体重写，避免悄悄删除内容。
+
+用 `label_offsets` 调整元件文字的留白，不改变器件、引脚、参数或连线：
+
+```python
+c.update('R1', label_offsets={
+    'reference': (762000, 508000),
+    'value': (762000, 127000),
+    'properties': (762000, -508000),
+})
+```
+
+可指定 `reference`、`value`、`device`、`properties`；每项为相对元件原点的 `(dx, dy)`，单位同元件坐标，按图纸方向在旋转后应用。元件移动时文字随行；每次提供的字典替换该实例之前的显式偏移，未指定项保留模板布局。坐标和最终位置必须落在 int32 范围内；错误更新不改变工程。显示标志和实际属性数据保持原样。`py -3.12 api/check_layout.py` 检查文件保存重开、位置和连接。
 
 | 操作 | 接口 |
 |---|---|
@@ -83,7 +97,7 @@ port = c.add_terminal('input', 'ENABLE', position=(0, -5080000))
 ## 原生工程会话
 
 ```python
-from proteus_api import Session, Simulation
+from proteus_automatic_api import Session, Simulation
 
 s = Session('revised.pdsprj')
 netlist = s.export_netlist('revised.sdf')
@@ -99,7 +113,7 @@ s.close()
 下面使用已经放置 STM32F103R6（编号 U1）的工程副本和外置 ELF。固件必须适合工程中的 MCU。
 
 ```python
-from proteus_api import Session, Simulation
+from proteus_automatic_api import Session, Simulation
 
 s = Session('stm32_external.pdsprj')
 sim = Simulation(s)
@@ -138,7 +152,7 @@ py -3.12 api/check_simulation.py            # 官方样例副本与自有进程
 先在文件编辑阶段调用 `Circuit.bind_controls(*refs)`，保存后再启动 `Session`。以下工程中 `SW1` 是已经连接好的 `BUTTON`：
 
 ```python
-from proteus_api import Circuit, Session, Simulation
+from proteus_automatic_api import Circuit, Session, Simulation
 
 circuit = Circuit.open('button_circuit.pdsprj')
 circuit.bind_controls('SW1')
@@ -193,7 +207,7 @@ py -3.12 -I api/check_button_mcu.py       # BUTTON → PA0 → 固件 → PA5
 ## 输入参数、电压、电流与波形
 
 ```python
-from proteus_api import Session, graphs, export_graph, sample_graph, set_generator_properties
+from proteus_automatic_api import Session, graphs, export_graph, sample_graph, set_generator_properties
 
 source = r'C:\ProgramData\program\SAMPLES\Graph Based Simulation\Rescap.pdsprj'
 project = set_generator_properties(source, 'amplitude2.pdsprj', 'INPUT', AMP='2')

@@ -5,7 +5,7 @@ from pathlib import Path
 import uuid
 
 from component_codec import SOURCE
-from proteus_api import Circuit, Session
+from proteus_automatic_api import Circuit, Session
 
 
 def nets(data):

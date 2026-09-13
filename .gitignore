@@ -6,7 +6,7 @@ __pycache__/
 *.egg-info/
 /build/
 /dist/*
-!/dist/proteus_native-0.2.0-py3-none-any.whl
+!/dist/proteus_automatic_api-0.2.0-py3-none-any.whl
 !/dist/build_manifest.json
 
 # Downloaded projects and exploratory work
@@ -41,6 +41,10 @@ Thumbs.db
 !/api/artifacts/four_slot_result.json
 !/api/artifacts/incremental-64d8d344/result.json
 !/api/artifacts/installed-447ced83/result.json
+!/api/artifacts/installed-93f8224d/result.json
+!/api/artifacts/button-mcu-5658bb27/result.json
+!/api/artifacts/button-mcu-5658bb27/simulation.log
+!/api/artifacts/skill-rename-s4_lyumd/result.json
 !/api/artifacts/integrity-edits-b9b10ded/result.json
 !/api/artifacts/interactions-5e95f58e/result.json
 !/api/artifacts/interactions-add09d8a/result.json

@@ -1,8 +1,8 @@
-# proteus-native
+# proteus-automatic-api
 
 [简体中文](README.md) | **English**
 
-proteus-native is a Python library for creating, editing, and simulating Proteus circuits. It provides schematic file operations, netlist export, microcontroller firmware loading, button and switch control, and simulation result extraction. Simulations run in an installed copy of Proteus; the code does not depend on computer-use or screen coordinates.
+proteus-automatic-api is a Python library for creating, editing, and simulating Proteus circuits. It provides schematic file operations, netlist export, microcontroller firmware loading, button and switch control, and simulation result extraction. Simulations run in an installed copy of Proteus; the code does not depend on computer-use or screen coordinates.
 
 **Version 0.2.0 · Developer preview.** Tested on Windows with Python 3.12 and Proteus 8.16 SP3 (8.16.36097).
 
@@ -15,10 +15,12 @@ proteus-native is a Python library for creating, editing, and simulating Proteus
 
 ## Installation
 
-Install the [wheel](dist/proteus_native-0.2.0-py3-none-any.whl) from PowerShell in the project root:
+Use a fresh virtual environment to avoid conflicts with earlier distributions that share internal modules. The public import name is `proteus_automatic_api`.
+
+Install the [wheel](dist/proteus_automatic_api-0.2.0-py3-none-any.whl) from PowerShell in the project root:
 
 ```powershell
-py -3.12 -m pip install --no-index --no-deps '.\dist\proteus_native-0.2.0-py3-none-any.whl'
+py -3.12 -m pip install --no-index --no-deps '.\dist\proteus_automatic_api-0.2.0-py3-none-any.whl'
 ```
 
 Alternatively, install from source:
@@ -27,10 +29,10 @@ Alternatively, install from source:
 py -3.12 -m pip install .
 ```
 
-The package name is `proteus-native`; the import name is `proteus_api`. This command should print `0.2.0`:
+The package name is `proteus-automatic-api`; the import name is `proteus_automatic_api`. This command should print `0.2.0`:
 
 ```powershell
-py -3.12 -c "import proteus_api; print(proteus_api.__version__)"
+py -3.12 -c "import proteus_automatic_api; print(proteus_automatic_api.__version__)"
 ```
 
 Installing from source requires `setuptools>=68`. Installing the wheel does not require build tools.
@@ -52,7 +54,7 @@ The table lists the built-in paths and their corresponding parameters. Check you
 Set `template` to the actual path of the official sample. This code creates a `.pdsprj` project containing a resistor, a capacitor, a wire, and a ground terminal.
 
 ```python
-from proteus_api import Circuit
+from proteus_automatic_api import Circuit
 
 template = r"C:\ProgramData\program\SAMPLES\Graph Based Simulation\Rescap.pdsprj"
 circuit = Circuit(template_project=template)
@@ -69,7 +71,7 @@ The resulting `rc.pdsprj` is saved in the current directory and can be opened an
 Continue in the same script to export a Proteus-compiled SDF netlist. Set `executable` to your installation path:
 
 ```python
-from proteus_api import Session
+from proteus_automatic_api import Session
 
 session = Session(project, executable=r"D:\Proteus\BIN\PDS.EXE")
 netlist = session.export_netlist("rc.sdf")
@@ -103,7 +105,7 @@ See the [API guide](api/README.md) for complete examples.
 This example uses an existing simulation-ready project with a connected `BUTTON` named `SW1`. Bind the control, save the project, then open the saved file in a new `Session`:
 
 ```python
-from proteus_api import Circuit, Session, Simulation
+from proteus_automatic_api import Circuit, Session, Simulation
 
 circuit = Circuit.open("button_circuit.pdsprj")
 circuit.bind_controls("SW1")

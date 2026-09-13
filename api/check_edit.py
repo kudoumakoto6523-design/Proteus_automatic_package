@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 import uuid
 
-from proteus_api import Circuit, Project, Session, UnsupportedFormat
+from proteus_automatic_api import Circuit, Project, Session, UnsupportedFormat
 
 
 def run():

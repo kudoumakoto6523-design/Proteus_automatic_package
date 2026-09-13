@@ -443,6 +443,20 @@ class Circuit:
                 struct.pack_into("<ii", tail, 0, x + template["x"], y + template["y"])
                 tails.append(bytes(tail))
             template["text_tails"] = tails
+        label_offsets = part.get("label_offsets", {})
+        label_names = ("reference", "value", "device", "properties")
+        _need(isinstance(label_offsets, dict) and set(label_offsets) <= set(label_names),
+              "Unknown component label")
+        for name, offset in label_offsets.items():
+            _need(isinstance(offset, (tuple, list)) and len(offset) == 2
+                  and all(type(v) is int and -2**31 <= v < 2**31 for v in offset),
+                  "Label offsets must be two int32 coordinates")
+            xy = (template["x"] + offset[0], template["y"] + offset[1])
+            _need(all(-2**31 <= v < 2**31 for v in xy), "Label coordinate overflow")
+            index = label_names.index(name)
+            tail = bytearray(template["text_tails"][index])
+            struct.pack_into("<ii", tail, 0, *xy)
+            template["text_tails"][index] = bytes(tail)
         properties = part.get("properties", {})
         lines = template["properties"].splitlines()
         for key, value in properties.items():
@@ -647,12 +661,14 @@ class Circuit:
 
     def update(self, ref, **changes):
         """Change an instance atomically; connected automatic routes are regenerated."""
-        _need(changes and set(changes) <= {"value", "x", "y", "rotation", "mirror_x", "mirror_y", "properties"},
+        _need(changes and set(changes) <= {"value", "x", "y", "rotation", "mirror_x", "mirror_y", "properties", "label_offsets"},
               "Unsupported component update")
         parts = copy.deepcopy(self._parts)
         part = parts[self._index(ref)]
         if "properties" in changes:
             changes = dict(changes, properties=dict(part.get("properties", {}), **changes["properties"]))
+        if "label_offsets" in changes:
+            changes = dict(changes, label_offsets=copy.deepcopy(changes["label_offsets"]))
         part.update(changes)
         _need(isinstance(part["value"], str) and part["value"] and all(32 <= ord(c) < 127 for c in part["value"]),
               "Value must be printable ASCII")
@@ -873,6 +889,11 @@ class Circuit:
             "PROJECT.XML": ET.tostring(metadata, encoding="utf-8", xml_declaration=True)})
         # The new sheet has no graph objects, so old graph caches have no owner.
         members.pop("GRAPHS.DAT", None)
+        if not getattr(self, '_loaded', False):
+            # A new sheet must not build/load the template's VSM Studio firmware
+            # in place of the image assigned to its newly created MCU.
+            members = {name: data for name, data in members.items()
+                       if not name.startswith('FIRMWARE')}
         destination.parent.mkdir(parents=True, exist_ok=True)
         descriptor, temporary = tempfile.mkstemp(prefix=".proteus-", suffix=".pdsprj", dir=destination.parent)
         os.close(descriptor)

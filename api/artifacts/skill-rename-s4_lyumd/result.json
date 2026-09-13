@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "interpreter": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\proteus-automatic-api-rename-s4_lyumd\\venv\\Scripts\\python.exe",
+  "module_path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\proteus-automatic-api-rename-s4_lyumd\\venv\\Lib\\site-packages\\proteus_automatic_api.py",
+  "distribution_name": "proteus-automatic-api",
+  "distribution_version": "0.2.0",
+  "template": "C:\\ProgramData\\program\\SAMPLES\\Graph Based Simulation\\Rescap.pdsprj",
+  "template_sha256_before": "b7efbd2fdbca1966de4ca7bb445e5207ae851056f3821f1d10e7057d5b792a59",
+  "native_process_started": false,
+  "python_block_indices": [
+    0,
+    2
+  ],
+  "source_checkout_on_sys_path": false,
+  "outputs": [
+    "C:\\Users\\Administrator\\AppData\\Local\\Temp\\proteus-automatic-api-rename-s4_lyumd\\skill-test\\work\\proteus-output\\rc.pdsprj",
+    "C:\\Users\\Administrator\\AppData\\Local\\Temp\\proteus-automatic-api-rename-s4_lyumd\\skill-test\\work\\proteus-output\\revised.pdsprj"
+  ],
+  "original_parts": {
+    "R1": "10k",
+    "C1": "100n"
+  },
+  "revised_parts": {
+    "R1": "22k",
+    "C_FILTER2": "220n"
+  },
+  "original_nets": [
+    [
+      [
+        "R1",
+        "1"
+      ]
+    ],
+    [
+      [
+        "C1",
+        "2"
+      ],
+      [
+        "R1",
+        "2"
+      ]
+    ],
+    [
+      [
+        "C1",
+        "1"
+      ]
+    ]
+  ],
+  "revised_nets": [
+    [
+      [
+        "R1",
+        "1"
+      ]
+    ],
+    [
+      [
+        "C_FILTER2",
+        "2"
+      ],
+      [
+        "R1",
+        "2"
+      ]
+    ],
+    [
+      [
+        "C_FILTER2",
+        "1"
+      ]
+    ]
+  ],
+  "template_sha256_after": "b7efbd2fdbca1966de4ca7bb445e5207ae851056f3821f1d10e7057d5b792a59",
+  "template_unchanged": true
+}

@@ -1,14 +1,19 @@
 """Run with the installed interpreter's -I flag, so source files cannot mask missing wheel modules."""
 import json
+from importlib.metadata import distribution
 from pathlib import Path
 import uuid
 from zipfile import ZipFile, ZIP_DEFLATED
 
-import proteus_api as p
+import proteus_automatic_api as p
 
 
 def run():
     assert 'site-packages' in p.__file__, 'Run with python -I after installing the wheel'
+    package = distribution('proteus-automatic-api')
+    assert package.metadata['Name'] == 'proteus-automatic-api'
+    assert package.version == p.__version__
+    assert Path(package.locate_file('proteus_automatic_api.py')).resolve() == Path(p.__file__).resolve()
     out = Path(__file__).parent / 'artifacts' / ('installed-' + uuid.uuid4().hex[:8])
     out.mkdir()
     sessions, result = [], {'version': p.__version__, 'imported_from': p.__file__}
